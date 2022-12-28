@@ -7,14 +7,15 @@ import ActionButton from '../Buttons/Action/ActionButton';
 function Header() {
   return (
     <header className="header">
-      <div className='header__wrapper header__wrapper_left'>
+      <div className='header__wrapper'>
         <CircleShape/>
         <HeaderTextMenu/>
       </div>
-      <div className='header__wrapper header__wrapper_right'>
+      <div className='header__wrapper'>
         <HeaderIconsMenu/>
         <ActionButton
           name='Get Started'
+          className={'headerActionButton'}
         />
       </div>
     </header>

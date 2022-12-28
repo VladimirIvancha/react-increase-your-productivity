@@ -5,10 +5,9 @@ function MenuIconsItem({
 })
 {  
     return (
-        <a href={item.ref} target="_blank" rel="noreferrer">
-            <img id={item.id} className="menuIconsItem" src={item.url} alt={item.alt}/>
+        <a href={item.ref} target="_blank" rel="noreferrer" id={item.id}>
+            <div className={`menuIconsItem ${item.className}`}></div>
         </a>
-        
     );
 }
 

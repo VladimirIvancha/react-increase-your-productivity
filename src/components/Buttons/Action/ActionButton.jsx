@@ -2,10 +2,11 @@ import React, { memo } from "react";
 
 function ActionButton({
     name,
+    className,
 })
 {  
     return (
-        <button className="actionButton">{name}</button>
+        <button className={className}>{name}</button>
     );
 }
 

@@ -1,0 +1,11 @@
+.menuTextItem {
+    @include font-qn700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #697CA6;
+    margin-right: 42px;
+
+    &_active {
+        color: $lightBlue;
+    }
+}

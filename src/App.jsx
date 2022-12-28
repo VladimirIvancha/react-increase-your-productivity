@@ -1,10 +1,9 @@
 import Header from './components/Header/Header';
 import './pages/index.css';
 
-
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
     </div>
   );

@@ -1,0 +1,28 @@
+.menuIconsItem {
+  @include mp-0;
+  @include bg-icon-set;
+}
+
+.facebook-icon {
+  background-image: url(../assets/images/facebook-icon.svg);
+  width: 8.71px;
+  height: 17px;
+}
+
+.telegram-icon {
+  background-image: url(../assets/images/telegram-icon.svg);
+  width: 14.7px;
+  height: 11.79px;
+}
+
+.twitter-icon {
+  background-image: url(../assets/images/twitter-icon.svg);
+  width: 16.51px;
+  height: 13.78px;
+}
+
+.m-icon {
+  background-image: url(../assets/images/m-icon.svg);
+  width: 16.51px;
+  height: 12.86px;
+}

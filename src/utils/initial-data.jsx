@@ -28,33 +28,28 @@ const initialMenuItemsData = [
 const initialMenuIconsData = [
   {
     id: 'facebook-icon',
-    url: '../assets/images/facebook-icon.svg',
-    alt: 'Facebook icon',
-    ref: 'http://facebook.com',
+    ref: '',
+    className: 'facebook-icon',
   },
   {
     id: 'telegram-icon',
-    url: '../assets/images/facebook-icon.svg',
-    alt: 'Telegram icon',
-    ref: 'http://telegram.com',
+    ref: '',
+    className: 'telegram-icon',
   },
   {
     id: 'twitter-icon',
-    url: '../assets/images/facebook-icon.svg',
-    alt: 'Twitter icon',
-    ref: 'http://twitter.com',
+    ref: '',
+    className: 'twitter-icon',
   },
   {
     id: 'm-icon',
-    url: '../assets/images/facebook-icon.svg',
-    alt: 'M icon',
-    ref: 'http://m.com',
+    ref: '',
+    className: 'm-icon',
   },
   // {
   //   id: '',
-  //   url: '',
-  //   alt: '',
   //   ref: '',
+  //   className: '',
   // },
 ];
 
