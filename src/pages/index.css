@@ -16,8 +16,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 1440px;
-  max-width: calc(100% - 234px);
+  max-width: 1440px;
+  width: calc(100% - 234px);
   justify-content: space-between;
 }
 
@@ -148,6 +148,23 @@
   background-image: url(../assets/images/m-icon.svg);
   width: 16.51px;
   height: 12.86px;
+}
+
+.intro {
+  width: 100vw;
+  min-height: 570px;
+  background-color: #F4F7FF;
+}
+.intro__clouds {
+  width: 100%;
+  max-width: 1300px;
+  max-height: 492px;
+  background-image: url(../assets/images/intro-clouds.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #ffffff;
+  border: none;
 }
 
 /*# sourceMappingURL=index.css.map */

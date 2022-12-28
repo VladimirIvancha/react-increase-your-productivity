@@ -1,3 +1,17 @@
 .intro {
-    
+    width: 100vw;
+    min-height: 570px;
+    background-color: #F4F7FF;
+
+    &__clouds {
+        width: 100%;
+        max-width: 1300px;
+        max-height: 492px;
+        background-image: url(../assets/images/intro-clouds.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #ffffff;
+        border: none;
+    }
 }
