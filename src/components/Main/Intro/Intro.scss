@@ -2,16 +2,35 @@
     width: 100vw;
     min-height: 570px;
     background-color: #F4F7FF;
+    background-image: url(../assets/images/intro-clouds.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
 
-    &__clouds {
-        width: 100%;
-        max-width: 1300px;
-        max-height: 492px;
-        background-image: url(../assets/images/intro-clouds.svg);
-        background-position: center;
+    &__ellipse {
+        width: 100px;
+        height: 100px;
+        background-image: url(../assets/images/intro-ellipse.svg);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        right: 0;
+        bottom: 108px;
+    }
+
+    &__chart {
+        max-height: 465px;
+        height: 100vh;
+        width: 100vw;
+        max-width: 1440px;
+        background-image: url(../assets/images/intro-chart.svg);
+        // background-position: left;
         background-repeat: no-repeat;
         background-size: contain;
-        background-color: #ffffff;
-        border: none;
+        position: absolute;
+        bottom: 0;
+
     }
 }

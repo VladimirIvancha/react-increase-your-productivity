@@ -150,21 +150,44 @@
   height: 12.86px;
 }
 
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1440px;
+}
+
 .intro {
   width: 100vw;
   min-height: 570px;
   background-color: #F4F7FF;
-}
-.intro__clouds {
-  width: 100%;
-  max-width: 1300px;
-  max-height: 492px;
   background-image: url(../assets/images/intro-clouds.svg);
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #ffffff;
-  border: none;
+  position: relative;
+}
+.intro__ellipse {
+  width: 100px;
+  height: 100px;
+  background-image: url(../assets/images/intro-ellipse.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  bottom: 108px;
+}
+.intro__chart {
+  max-height: 465px;
+  height: 100vh;
+  width: 100vw;
+  max-width: 1440px;
+  background-image: url(../assets/images/intro-chart.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: 0;
 }
 
 /*# sourceMappingURL=index.css.map */
