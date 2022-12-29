@@ -1,4 +1,6 @@
 @import '../assets/normalize.css';
+@import '../assets/fonts/Quicksand/quicksand.css';
+@import '../assets/fonts/Roboto/roboto.css';
 .app {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -158,6 +160,9 @@
 }
 
 .intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
   min-height: 570px;
   background-color: #F4F7FF;
@@ -185,9 +190,122 @@
   max-width: 1440px;
   background-image: url(../assets/images/intro-chart.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-position: left;
   position: absolute;
   bottom: 0;
+}
+.intro__subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #3D4F9F;
+  width: 90px;
+  text-align: center;
+  margin: 91px 0 0 0;
+}
+.intro__title {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  line-height: 60px;
+  color: #3D4F9F;
+  width: 581px;
+  text-align: center;
+  margin: 16px 0 0 0;
+}
+.intro__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 29px;
+  color: #8D96BD;
+  width: 502px;
+  text-align: center;
+  margin: 28px 0 0 0;
+}
+.intro__circle-shape {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 15px;
+  height: 16px;
+  background: #FFFFFF;
+  border: 2px solid #5E81FE;
+  box-shadow: 0px 0px 15px rgba(82, 131, 255, 0.25);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 68px;
+  left: 508px;
+  z-index: 3;
+}
+.intro__one-of-stats {
+  margin: 0;
+  padding: 0;
+  height: 120px;
+  width: 140px;
+  background-image: url(../assets/images/intro-one-of-stats.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  z-index: 3;
+  position: absolute;
+  bottom: 60px;
+  left: 446px;
+}
+.intro__circleSet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 48px;
+  justify-content: space-between;
+  justify-self: flex-end;
+  margin: 0 0 28px 0;
+  margin-top: auto;
+}
+.intro__circleSet-item {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #D1D6E3;
+}
+
+.playButton__shape {
+  margin: 0;
+  padding: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  margin: 20px 0 0 0;
+  position: relative;
+  border: none;
+}
+
+.playButton__play-icon {
+  margin: 0;
+  padding: 0;
+  height: 10px;
+  width: 11px;
+  background-image: url(../assets/images/play-icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*# sourceMappingURL=index.css.map */

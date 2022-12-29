@@ -1,8 +1,8 @@
 import React from "react";
 
-function CircleShape() {
+function CircleShape({id, className}) {
   return (
-    <div className="circleShape"></div>
+    <div className={className} id={id}></div>
   );
 }
 export default CircleShape;

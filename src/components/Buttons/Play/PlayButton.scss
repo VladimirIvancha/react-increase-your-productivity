@@ -1,0 +1,23 @@
+.playButton__shape {
+    @include mp-0;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: $white;
+    margin: 20px 0 0 0;
+    position: relative;
+    border: none;
+}
+
+.playButton__play-icon {
+    @include mp-0;
+    height: 10px;
+    width: 11px;
+    background-image: url(../assets/images/play-icon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

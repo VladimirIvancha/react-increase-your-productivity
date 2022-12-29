@@ -8,13 +8,15 @@ function Header() {
   return (
     <header className="header">
       <div className='header__wrapper'>
-        <CircleShape/>
+        <CircleShape
+          className={'circleShape'}
+        />
         <HeaderTextMenu/>
       </div>
       <div className='header__wrapper'>
         <HeaderIconsMenu/>
         <ActionButton
-          name='Get Started'
+          name={'Get Started'}
           className={'headerActionButton'}
         />
       </div>

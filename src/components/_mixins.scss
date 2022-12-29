@@ -30,3 +30,21 @@
   font-style: normal;
   font-weight: 700;
 }
+
+@mixin font-qn300 {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300;
+}
+
+@mixin font-rn500 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+}
+
+@mixin font-rn400 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+}

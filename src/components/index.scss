@@ -1,4 +1,6 @@
 @import '../assets/normalize.css',
+'../assets/fonts/Quicksand/quicksand.css',
+'../assets/fonts/Roboto/roboto.css',
 '../components/constants',
 '../components/mixins',
 '../App.scss',
@@ -11,6 +13,6 @@
 '../components/Items/MenuIcons/MenuIconsItem.scss',
 '../components/Items/MenuIcons/MenuIconsItem.scss',
 '../components/Main/Main.scss',
-'../components/Main/Intro/Intro.scss'
-
-
+'../components/Main/Intro/Intro.scss',
+'../components/Buttons/Play/PlayButton.scss',
+'../components/Sets/Circle/CircleSet.scss'

@@ -1,7 +1,8 @@
 .intro {
+    @include fc-center;
     width: 100vw;
     min-height: 570px;
-    background-color: #F4F7FF;
+    background-color: $paleWhite;
     background-image: url(../assets/images/intro-clouds.svg);
     background-position: left;
     background-repeat: no-repeat;
@@ -26,11 +27,89 @@
         width: 100vw;
         max-width: 1440px;
         background-image: url(../assets/images/intro-chart.svg);
-        // background-position: left;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-position: left;
         position: absolute;
         bottom: 0;
+    }
 
+    &__subtitle {
+        @include font-rn500;
+        @include mp-0;
+        font-size: 10px;
+        line-height: 12px;
+        text-transform: uppercase;
+        color: $darkBlue;
+        width: 90px;
+        text-align: center;
+        margin: 91px 0 0 0;
+    }
+
+    &__title {
+        @include font-qn300;
+        @include mp-0;
+        font-size: 48px;
+        line-height: 60px;
+        color: $darkBlue;
+        width: 581px;
+        text-align: center;
+        margin: 16px 0 0 0;
+    }
+
+    &__text {
+        @include font-rn400;
+        @include mp-0;
+        font-size: 15px;
+        line-height: 29px;
+        color: $paleBlue;
+        width: 502px;
+        text-align: center;
+        margin: 28px 0 0 0;
+    }
+
+    &__circle-shape {
+        @include mp-0;
+        box-sizing: border-box;
+        width: 15px;
+        height: 16px;
+        background: $white;
+        border: 2px solid $lightBlue;
+        box-shadow: 0px 0px 15px rgba(82, 131, 255, 0.25);
+        border-radius: 50%;
+        position: absolute;
+        bottom: 68px;
+        left: 508px;
+        z-index: 3;
+    }
+
+    &__one-of-stats {
+        @include mp-0;
+        height: 120px;
+        width: 140px;
+        background-image: url(../assets/images/intro-one-of-stats.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: transparent;
+        z-index: 3;
+        position: absolute;
+        bottom: 60px;
+        left: 446px;
+    }
+
+    &__circleSet {
+        @include fr-center;
+        @include mp-0;
+        width: 48px;
+        justify-content: space-between;
+        justify-self: flex-end;
+        margin: 0 0 28px 0;
+        margin-top: auto;
+    }
+
+    &__circleSet-item {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: $grey;
     }
 }
