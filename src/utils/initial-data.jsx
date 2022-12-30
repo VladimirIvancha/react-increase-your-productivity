@@ -53,7 +53,41 @@ const initialMenuIconsData = [
   // },
 ];
 
+const initialMenuLogoData = [
+  {
+    id: 'bitbucket-logo',
+    ref: '',
+    className: 'bitbucket-logo',
+  },
+  {
+    id: 'appleWatch-logo',
+    ref: '',
+    className: 'appleWatch-logo',
+  },
+  {
+    id: 'facebook-logo',
+    ref: '',
+    className: 'facebook-logo',
+  },
+  {
+    id: 'atlassian-logo',
+    ref: '',
+    className: 'atlassian-logo',
+  },
+  {
+    id: 'audi-logo',
+    ref: '',
+    className: 'audi-logo',
+  },
+  // {
+  //   id: '',
+  //   ref: '',
+  //   className: '',
+  // },
+];
+
 export {
   initialMenuItemsData,
   initialMenuIconsData,
+  initialMenuLogoData,
 };

@@ -1,6 +1,6 @@
 .intro {
     @include fc-center;
-    width: 100vw;
+    width: 100%;
     min-height: 570px;
     background-color: $paleWhite;
     background-image: url(../assets/images/intro-clouds.svg);

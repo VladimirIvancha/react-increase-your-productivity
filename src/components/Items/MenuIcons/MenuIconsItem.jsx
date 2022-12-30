@@ -1,5 +1,3 @@
-import React, { memo } from "react";
-
 function MenuIconsItem({
   item,
 })
@@ -11,4 +9,4 @@ function MenuIconsItem({
     );
 }
 
-export default memo(MenuIconsItem);
+export default MenuIconsItem;

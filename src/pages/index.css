@@ -154,16 +154,17 @@
 
 .main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   max-width: 1440px;
+  width: 100%;
 }
 
 .intro {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   min-height: 570px;
   background-color: #F4F7FF;
   background-image: url(../assets/images/intro-clouds.svg);
@@ -306,6 +307,65 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.menuLogoItem {
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #ffffff;
+  border: none;
+  transition: opacity 0.3s;
+  margin-right: 76.5px;
+}
+
+.bitbucket-logo {
+  background-image: url(../assets/images/logo-bitbucket.svg);
+  width: 116.59px;
+  height: 29px;
+}
+
+.appleWatch-logo {
+  background-image: url(../assets/images/logo-apple-watch.svg);
+  width: 116.59px;
+  height: 24.29px;
+}
+
+.facebook-logo {
+  background-image: url(../assets/images/logo-facebook.svg);
+  width: 116.58px;
+  height: 22.37px;
+}
+
+.atlassian-logo {
+  background-image: url(../assets/images/logo-atlassian.svg);
+  width: 116.57px;
+  height: 24.07px;
+}
+
+.audi-logo {
+  background-image: url(../assets/images/logo-audi.svg);
+  width: 116.58px;
+  height: 28.94px;
+}
+
+.customersLogoMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.customers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 145px;
 }
 
 /*# sourceMappingURL=index.css.map */

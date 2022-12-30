@@ -10,6 +10,13 @@
   align-items: center;
 }
 
+@mixin fcj-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 @mixin mp-0 {
   margin: 0;
   padding: 0;
@@ -23,6 +30,16 @@
   border: none;
   transition: opacity 0.3s;
   margin-left: 33px;
+}
+
+@mixin bg-logo-set {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #ffffff;
+  border: none;
+  transition: opacity 0.3s;
+  margin-right: 76.5px;
 }
 
 @mixin font-qn700 {

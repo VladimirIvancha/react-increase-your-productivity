@@ -1,4 +1,3 @@
-import React from 'react';
 import MenuIconsItem from '../../Items/MenuIcons/MenuIconsItem';
 import { initialMenuIconsData } from '../../../utils/initial-data';
 
