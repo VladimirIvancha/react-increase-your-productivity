@@ -528,13 +528,180 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  min-height: 570px;
-  background-color: #F4F7FF;
-  background-image: url(../assets/images/intro-clouds.svg);
-  background-position: left;
+  min-height: 885px;
+  background-color: #FFFFFF;
+  background-image: url(../assets/images/features-clouds.svg);
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
+  background-size: 1400px 600px;
+}
+.features__textArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 171px 0 0 0;
+}
+.features__subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #3D4F9F;
+  width: 56px;
+  text-align: center;
+}
+.features__title {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  line-height: 30px;
+  color: #3D4F9F;
+  width: 229px;
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+.features__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  max-width: 761px;
+  margin: 92px 0 0 0;
+  justify-content: space-between;
+}
+.features__wrapper_buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 337px;
+  justify-content: center;
+}
+.features__wrapper_text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 110px;
+  margin: 0;
+  justify-content: space-evenly;
+}
+.features__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 140px;
+  min-height: 254px;
+}
+.features__overview-item {
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+  background-color: #F1F5FF;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/images/features-overview-icon.svg);
+}
+.features__files-item {
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+  background-color: #F1F5FF;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/images/features-files-icon.svg);
+}
+.features__meetingChats-item {
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+  background-color: #F1F5FF;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/images/features-meetingChats-icon.svg);
+}
+.features__saveEvents-item {
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+  background-color: #F1F5FF;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/images/features-saveEvents-icon.svg);
+}
+.features__itemTextArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin: 33px 0 0 0;
+}
+.features__item-title {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #4074F8;
+  font-size: 14px;
+  line-height: 25px;
+}
+.features__item-text {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  color: #ADB3CB;
+  font-size: 11px;
+  line-height: 19px;
+  margin: 25px 0 0 0;
+}
+.features__actionButton {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  line-height: 16px;
+  width: 113px;
+  height: 43px;
+  border-radius: 2px;
+  border-style: none;
+}
+.features__actionButton_red {
+  color: #D43F3F;
+  background: #FFD7D7;
+}
+.features__actionButton_blue {
+  color: #3A79FF;
+  background: #D2E1FF;
+}
+.features__line {
+  width: 15px;
+  border: 1px solid #DAE4FE;
+}
+.features__text {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 19px;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=index.css.map */

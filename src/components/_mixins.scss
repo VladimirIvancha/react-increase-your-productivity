@@ -4,16 +4,28 @@
   align-items: center;
 }
 
+@mixin fc-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 @mixin fc-left {
   display: flex;
   flex-direction: column;
-  align-items: flex-start
+  align-items: flex-start;
 }
 
 @mixin fr-center {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+@mixin fr-top {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 @mixin fcj-center {
@@ -53,6 +65,15 @@
   border: none;
   transition: opacity 0.3s;
   margin-right: 76.5px;
+}
+
+@mixin bg-feture-set {
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+  background-color: $deepGrey;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @mixin font-qn700 {
