@@ -33,6 +33,11 @@
         bottom: 0;
     }
 
+    &__textArea {
+        @include fc-center;
+        margin: 91px 0 0 0;
+    }
+
     &__subtitle {
         @include font-rn500;
         @include mp-0;
@@ -42,7 +47,6 @@
         color: $darkBlue;
         width: 90px;
         text-align: center;
-        margin: 91px 0 0 0;
     }
 
     &__title {

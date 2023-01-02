@@ -1,0 +1,67 @@
+.features {
+    @include fc-center;
+    width: 100%;
+    min-height: 570px;
+    background-color: $paleWhite;
+    background-image: url(../assets/images/intro-clouds.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+
+    &__textArea {
+
+    }
+
+    &__subtitle {
+
+    }
+
+    &__title {
+
+    }
+
+    &__wrapper {
+
+    }
+
+    &__item {
+
+    }
+
+    &__overview-item {
+
+    }
+
+    &__itemTextArea {
+
+    }
+
+    &__item-title {
+
+    }
+
+    &__item-text {
+        
+    }
+
+    &__actionButton {
+
+
+        &_red {
+
+        }
+
+        &_blue {
+
+        }
+    }
+
+    &__line {
+
+    }
+
+    &__text {
+
+    }
+}

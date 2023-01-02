@@ -1,5 +1,3 @@
-import React, { memo } from "react";
-
 function ActionButton({
     name,
     className,
@@ -10,4 +8,4 @@ function ActionButton({
     );
 }
 
-export default memo(ActionButton);
+export default ActionButton;

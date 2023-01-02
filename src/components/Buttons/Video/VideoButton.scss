@@ -1,0 +1,12 @@
+.videoButton {
+
+    &__play-icon {
+        width: 6.5px;
+        height: 7.2px;
+        background-image: url(../assets/images/playandmanage-play-icon.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: transparent;
+        margin: 0 0 0 6px;
+    }
+}

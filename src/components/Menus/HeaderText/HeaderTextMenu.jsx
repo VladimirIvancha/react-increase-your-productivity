@@ -1,4 +1,3 @@
-import React from 'react';
 import MenuTextItem from '../../Items/MenuText/MenuTextItem';
 import { initialMenuItemsData } from '../../../utils/initial-data';
 

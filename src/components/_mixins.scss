@@ -4,6 +4,12 @@
   align-items: center;
 }
 
+@mixin fc-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start
+}
+
 @mixin fr-center {
   display: flex;
   flex-direction: row;
@@ -13,6 +19,13 @@
 @mixin fcj-center {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin frj-center {
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
@@ -46,6 +59,12 @@
   font-family: 'Quicksand';
   font-style: normal;
   font-weight: 700;
+}
+
+@mixin font-qn500 {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
 }
 
 @mixin font-qn300 {
