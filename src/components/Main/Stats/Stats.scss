@@ -1,0 +1,106 @@
+.stats {
+    @include fr-center;
+    width: 100%;
+    min-height: 342px;
+    position: relative;
+
+    &__block {
+        width: 100%;
+        max-width: 720px;
+        min-height: 342px;
+        background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+
+        &_greyBlue {
+            background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
+        }
+    }
+
+    &__wrapper {
+        @include fr-top;
+        @include mp-0;
+        min-height: 210px;
+        width: 700px;
+        justify-content: space-between;
+        list-style: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__item {
+        @include fc-center;
+        min-height: 210px;
+        width: 260px;
+
+        &_left {
+            align-items: flex-end;
+        }
+
+        &_right {
+            align-items: flex-start;
+        }
+    }
+
+    &__increased-item {
+        @include bg-stat-set;
+        background-image: url(../assets/images/stats-increase-icon.svg);
+        width: 65px;
+        height: 66px;
+    }
+
+    &__used-item {
+        @include bg-stat-set;
+        background-image: url(../assets/images/stats-used-icon.svg);
+        width: 71px;
+        height: 62px;
+    }
+
+    &__itemTextArea {
+        @include fc-center;
+        @include mp-0;
+        margin: 24px 0 0 0;
+
+        &_left {
+            align-items: flex-end;
+            text-align: right;
+        }
+
+        &_right {
+            align-items: flex-start;
+            text-align: left;
+        }
+    }
+
+    &__item-title {
+        @include font-qn400;
+        @include mp-0;
+        letter-spacing: 0.03em;
+        font-size: 48px;
+        line-height: 83px;
+
+        &_white {
+            color: $white;
+        }
+
+        &_blue {
+            color: $statsBlue;
+        }
+    }
+
+    &__item-text {
+        @include font-qn500;
+        @include mp-0;
+        letter-spacing: 0.03em;
+        font-size: 18px;
+        line-height: 23px;
+
+        &_white {
+            color: $white;
+        }
+
+        &_blue {
+            color: $statsBlue;
+        }
+    }
+}

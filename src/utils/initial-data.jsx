@@ -159,15 +159,48 @@ const initialMenuFeaturesData = [
   },
   // {
   //   id: "",
-  //   mainClassName: "features__item",
+  //   mainClassName: "",
   //   figureClassName: "",
-  //   textAreaClass: "features__itemTextArea",
-  //   hClass: "features__item-title",
+  //   textAreaClass: "",
+  //   hClass: "",
   //   hText: "",
-  //   p1Class: "features__item-text",
+  //   p1Class: "",
   //   p1Text: "",
   // },
 ];
+
+const initialStatsData = [
+  {
+    id: "stats__increased-item",
+    mainClassName: "stats__item stats__item_left",
+    figureClassName: "stats__increased-item",
+    textAreaClass: "stats__itemTextArea stats__itemTextArea_left",
+    hClass: "stats__item-title stats__item-title_white",
+    hText: "89%",
+    p1Class: "stats__item-text stats__item-text_white",
+    p1Text: "Customers who have increased their productivity",
+  },
+  {
+    id: "stats__used-item",
+    mainClassName: "stats__item stats__item_right",
+    figureClassName: "stats__used-item",
+    textAreaClass: "stats__itemTextArea stats__itemTextArea_right",
+    hClass: "stats__item-title stats__item-title_blue",
+    hText: "3123",
+    p1Class: "stats__item-text stats__item-text_blue",
+    p1Text: "Users who have used our application",
+  },
+  // {
+  //   id: "",
+  //   mainClassName: "",
+  //   figureClassName: "",
+  //   textAreaClass: "",
+  //   hClass: "",
+  //   hText: "",
+  //   p1Class: "",
+  //   p1Text: "",
+  // },
+]
 
 export {
   initialMenuItemsData,
@@ -177,4 +210,5 @@ export {
   planAndManagePhpTextArea,
   featuresPhTextArea,
   initialMenuFeaturesData,
+  initialStatsData,
 };

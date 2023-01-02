@@ -704,4 +704,118 @@
   text-transform: uppercase;
 }
 
+.stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  min-height: 342px;
+  position: relative;
+}
+.stats__block {
+  width: 100%;
+  max-width: 720px;
+  min-height: 342px;
+  background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%);
+}
+.stats__block_greyBlue {
+  background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%);
+}
+.stats__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  min-height: 210px;
+  width: 700px;
+  justify-content: space-between;
+  list-style: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.stats__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 210px;
+  width: 260px;
+}
+.stats__item_left {
+  align-items: flex-end;
+}
+.stats__item_right {
+  align-items: flex-start;
+}
+.stats__increased-item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  border: none;
+  background-image: url(../assets/images/stats-increase-icon.svg);
+  width: 65px;
+  height: 66px;
+}
+.stats__used-item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  border: none;
+  background-image: url(../assets/images/stats-used-icon.svg);
+  width: 71px;
+  height: 62px;
+}
+.stats__itemTextArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin: 24px 0 0 0;
+}
+.stats__itemTextArea_left {
+  align-items: flex-end;
+  text-align: right;
+}
+.stats__itemTextArea_right {
+  align-items: flex-start;
+  text-align: left;
+}
+.stats__item-title {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.03em;
+  font-size: 48px;
+  line-height: 83px;
+}
+.stats__item-title_white {
+  color: #FFFFFF;
+}
+.stats__item-title_blue {
+  color: #5E80FF;
+}
+.stats__item-text {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.03em;
+  font-size: 18px;
+  line-height: 23px;
+}
+.stats__item-text_white {
+  color: #FFFFFF;
+}
+.stats__item-text_blue {
+  color: #5E80FF;
+}
+
 /*# sourceMappingURL=index.css.map */

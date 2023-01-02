@@ -76,6 +76,14 @@
   background-repeat: no-repeat;
 }
 
+@mixin bg-stat-set {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  border: none;
+}
+
 @mixin font-qn700 {
   font-family: 'Quicksand';
   font-style: normal;
@@ -86,6 +94,12 @@
   font-family: 'Quicksand';
   font-style: normal;
   font-weight: 500;
+}
+
+@mixin font-qn400 {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
 }
 
 @mixin font-qn300 {
