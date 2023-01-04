@@ -1,4 +1,5 @@
 import React from 'react';
+import Blog from './Blog/Blog';
 import Customers from './Customers/Customers';
 import Features from './Features/Features';
 import Intro from './Intro/Intro';
@@ -13,6 +14,7 @@ function Main() {
       <PlanAndManage />
       <Features />
       <Stats />
+      <Blog />
     </main>
   );
 }

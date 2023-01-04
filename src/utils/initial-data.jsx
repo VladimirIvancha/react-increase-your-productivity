@@ -202,6 +202,22 @@ const initialStatsData = [
   // },
 ]
 
+const blogPhTextArea = {
+  textAreaClass: "blog__phTextArea",
+  p1Class: "blog__phSubtitle",
+  p1Text: "Our resources",
+  hClass: "blog__phTitle",
+  hText: "Start reading our blog",
+};
+
+const blogHpTextArea = {
+  textAreaClass: "blog__hpTextArea",
+  hClass: "blog__hpTitle",
+  hText: "How to start planning",
+  pClass: "blog__hpSubtitle",
+  pText: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at, eos ut decore ...",
+};
+
 export {
   initialMenuItemsData,
   initialMenuIconsData,
@@ -211,4 +227,6 @@ export {
   featuresPhTextArea,
   initialMenuFeaturesData,
   initialStatsData,
+  blogPhTextArea,
+  blogHpTextArea,
 };
