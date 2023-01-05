@@ -11,17 +11,17 @@ function Blog() {
       <PhTextArea data={blogPhTextArea} />
       <div className="blog__wrapper">
         <FigureButton className={"blog__icon-arrow-left"} />
-        <div className="blog__wrapper">
+        <div className="blog__wrapper blog__wrapper_main">
           <div className="blog__pic blog__pic_main">
             <div className="blog__search-icon"></div>
           </div>
-          <div className="blog__wrapper blog__wrapper_vertical">
+          <div className="blog__wrapper blog__wrapper_vertical-pics">
             <div className="blog__pic blog__pic_table"></div>
             <div className="blog__pic blog__pic_man"></div>
           </div>
-          <div className="blog__wrapper blog__wrapper_vertical">
+          <div className="blog__wrapper blog__wrapper_vertical-text">
             <HpTextArea data={blogHpTextArea} />
-            <div className="blog__wrapper">
+            <div className="blog__wrapper blog__wrapper_buttons">
               <ActionButton name={"Read now"} className={"blog__btn"} />
               <ActionButton
                 name={"Add to your bookmarks"}

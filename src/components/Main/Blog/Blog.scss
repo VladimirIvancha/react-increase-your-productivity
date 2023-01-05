@@ -1,47 +1,100 @@
 .blog {
-    @include fr-center;
+    @include fc-center;
     width: 100%;
     min-height: 865px;
+    background-color: $paleGrey;
 
     &__phTextArea {
-
+        @include fc-center;
+        margin: 104px 0 0 0;
     }
 
     &__phSubtitle {
-
+        @include font-rn500;
+        @include mp-0;
+        font-size: 10px;
+        line-height: 12px;
+        text-transform: uppercase;
+        color: $darkBlue;
+        width: 91px;
+        text-align: center;
     }
 
     &__phTitle {
-
+        @include font-qn500;
+        @include mp-0;
+        font-size: 24px;
+        line-height: 30px;
+        color: $darkBlue;
+        width: 251px;
+        text-align: center;
+        margin: 20px 0 0 0;
     }
 
     &__wrapper {
+        @include fr-center;
+        @include mp-0;
 
-        &_vertical {
+        &_main {
+            background-color: $white;
+            margin: 92px 75px 101px 75px;
+            box-sizing: border-box;
+            padding: 63px 41px 64px 35px;
+        }
 
+        &_vertical-text {
+            @include fc-left;
+            margin: 0 0 0 67px;
+        }
+
+        &_vertical-pics {
+            @include fc-top;
+            margin: 0 0 0 13px;
+        }
+
+        &_buttons {
+            @include mp-0;
+            margin: 31px 0 0 0;
         }
     }
 
     &__icon-arrow-left {
-
+        @include bg-blog-set;
+        background-image: url(../assets/images/blog-arrow-left.svg);
     }
 
     &__icon-arrow-right {
-
+        @include bg-blog-set;
+        background-image: url(../assets/images/blog-arrow-right.svg);
     }
 
     &__pic {
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        width: 100vw;
+        
 
         &_main {
-
+            background-image: url(../assets/images/blog-pic-main.png);
+            background-position: top -83px right -100px;
+            max-width: 267px;
+            min-height: 267px;
+            position: relative;
         }
 
         &_table {
-
+            background-image: url(../assets/images/blog-pic-table.png);
+            background-position: top -83px right -100px;
+            max-width: 126px;
+            min-height: 127px;
         }
 
         &_man {
-
+            background-image: url(../assets/images/blog-pic-man.png);
+            background-position: top -83px right -100px;
+            max-width: 126px;
+            min-height: 127px;
+            margin: 13px 0 0 0;
         }
     }
 
@@ -50,29 +103,66 @@
     }
 
     &__hpTextArea {
-
+        @include fc-left;
+        @include mp-0;
     }
 
     &__hpTitle {
-
+        @include font-qn400;
+        @include mp-0;
+        font-size: 36px;
+        line-height: 45px;
+        color: $darkBlue;
+        width: 359px;
+        text-align: left;
     }
 
     &__hpSubtitle {
-
+        @include font-rn400;
+        @include mp-0;
+        font-size: 14px;
+        line-height: 27px;
+        color: $darkBlue;
+        width: 408px;
+        text-align: left;
+        margin: 32px 0 0 0;
     }
 
     &__btn {
+        @include mp-0;
+        @include font-qn700;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        color: $btnTextBlue;
+        width: 113px;
+        height: 43px;
+        border: none;
+        border-radius: 2px;
+        background: $btnGrey;
+
 
         &_white {
-
+            color: $btnTextGrey;
+            background: $white;
+            width: 211px;
+            height: 43px;
+            margin: 0 0 0 8px;
         }
     }
 
     &__circleSet {
-
+        @include fr-center;
+        @include mp-0;
+        width: 48px;
+        justify-content: space-between;
+        margin: 0 0 28px 0;
     }
 
     &__circleSet-item {
-        
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: $grey;
     }
 }

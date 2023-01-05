@@ -84,6 +84,17 @@
   border: none;
 }
 
+@mixin bg-blog-set {
+  width: 23px;
+  height: 15px;
+  border: none;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0;
+}
+
 @mixin font-qn700 {
   font-family: 'Quicksand';
   font-style: normal;
