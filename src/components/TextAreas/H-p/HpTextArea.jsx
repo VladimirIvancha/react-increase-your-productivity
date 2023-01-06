@@ -1,3 +1,5 @@
+import React from "react";
+
 function HpTextArea({ data }) {
     return (
       <article className={data.textAreaClass}>

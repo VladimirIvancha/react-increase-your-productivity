@@ -1,3 +1,5 @@
+import React from "react";
+
 function PhpTextArea({ data }) {
   return (
     <article className={data.textAreaClass}>

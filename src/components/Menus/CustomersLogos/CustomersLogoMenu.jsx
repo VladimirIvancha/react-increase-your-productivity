@@ -1,3 +1,4 @@
+import React from "react";
 import MenuLogoItem from "../../Items/MenuLogo/MenuLogoItem";
 import { initialMenuLogoData } from "../../../utils/initial-data";
 

@@ -1,3 +1,4 @@
+import React from "react";
 import PhTextArea from "../../TextAreas/P-h/PhTextArea";
 import { featuresPhTextArea } from "../../../utils/initial-data";
 import FeaturesItems from "../../Menus/FeaturesItems/FeaturesItems";

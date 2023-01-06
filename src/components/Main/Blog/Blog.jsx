@@ -1,3 +1,4 @@
+import React from "react";
 import ActionButton from "../../Buttons/Action/ActionButton";
 import FigureButton from "../../Buttons/Figure/FigureButton";
 import HpTextArea from "../../TextAreas/H-p/HpTextArea";

@@ -1,3 +1,4 @@
+import React from "react";
 import HpTextArea from "../../TextAreas/H-p/HpTextArea";
 
 function MenuStatsItem({ 

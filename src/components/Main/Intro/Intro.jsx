@@ -1,3 +1,4 @@
+import React from "react";
 import PlayButton from '../../Buttons/Play/PlayButton';
 import CircleShape from '../../Shapes/Circle/CircleShape';
 import CircleSet from '../../Sets/Circle/CircleSet';

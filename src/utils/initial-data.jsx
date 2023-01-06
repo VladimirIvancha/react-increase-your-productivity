@@ -218,6 +218,68 @@ const blogHpTextArea = {
   pText: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at, eos ut decore ...",
 };
 
+const quotesPhpTextArea = {
+  textAreaClass: "quotes__textArea",
+  p1Class: "quotes__subtitle",
+  p1Text: "Testimonials",
+  hClass: "quotes__title",
+  hText: "Customers's quotes",
+  p2Class: "quotes__text",
+  p2Text:
+    "Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an.",
+};
+
+const initialQuotesData = [
+  {
+    id: 'john-brown-quote',
+    mainClassName: "quotes__item",
+    textAreaClass: "quotes__pTextArea",
+    p1Class: "quotes__pText",
+    p1Text: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.",
+    quotePerson: "quotes__person quotes__person_john-brow",
+  },
+  {
+    id: 'jack-black-quote',
+    mainClassName: "quotes__item",
+    textAreaClass: "quotes__pTextArea",
+    p1Class: "quotes__pText",
+    p1Text: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.",
+    quotePerson: "quotes__person quotes__person_jack-black",
+  },
+  {
+    id: 'lionel-messi-quote',
+    mainClassName: "quotes__item",
+    textAreaClass: "quotes__pTextArea",
+    p1Class: "quotes__pText",
+    p1Text: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.",
+    quotePerson: "quotes__person quotes__person_lionel-messi",
+  },
+  {
+    id: 'kurt-russel-quote',
+    mainClassName: "quotes__item",
+    textAreaClass: "quotes__pTextArea",
+    p1Class: "quotes__pText",
+    p1Text: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.",
+    quotePerson: "quotes__person quotes__person_kurt-russel",
+  },
+  {
+    id: 'demi-moor-quote',
+    mainClassName: "quotes__item",
+    textAreaClass: "quotes__pTextArea",
+    p1Class: "quotes__pText",
+    p1Text: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.",
+    quotePerson: "quotes__person quotes__person_demi-moor",
+  },
+  {
+    id: 'kristina-ricci-quote',
+    mainClassName: "quotes__item",
+    textAreaClass: "quotes__pTextArea",
+    p1Class: "quotes__pText",
+    p1Text: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.",
+    quotePerson: "quotes__person quotes__person_kristina-ricci",
+  },
+]
+
 export {
   initialMenuItemsData,
   initialMenuIconsData,
@@ -229,4 +291,6 @@ export {
   initialStatsData,
   blogPhTextArea,
   blogHpTextArea,
+  quotesPhpTextArea,
+  initialQuotesData,
 };

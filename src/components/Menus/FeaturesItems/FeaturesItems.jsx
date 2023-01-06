@@ -1,3 +1,4 @@
+import React from "react";
 import MenuFeatureItem from '../../Items/MenuFeature/MenuFeatureItem';
 import { initialMenuFeaturesData } from '../../../utils/initial-data';
 

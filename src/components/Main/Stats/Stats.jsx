@@ -1,4 +1,6 @@
+import React from "react";
 import StatsItems from "../../Menus/StatsItems/StatsItems";
+
 function Stats() {
   return (
     <section className="stats">

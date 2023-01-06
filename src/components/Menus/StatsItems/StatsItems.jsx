@@ -1,3 +1,4 @@
+import React from "react";
 import MenuStatsItem from '../../Items/MenuStats/MenuStatsItem';
 import { initialStatsData } from '../../../utils/initial-data';
 

@@ -1,3 +1,4 @@
+import React from "react";
 import CustomersLogoMenu from "../../Menus/CustomersLogos/CustomersLogoMenu";
 
 function Customers() {
