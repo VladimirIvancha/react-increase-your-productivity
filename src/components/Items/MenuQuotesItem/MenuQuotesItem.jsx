@@ -6,10 +6,12 @@ function MenuQuotesItem({
 })
 {  
     return (
-        <li className={item.mainClassName} id={item.id}>
-            <PTextArea
-                data={item}
-            />
+        <li className={item.containerClassName} id={item.id}>
+            <div className={item.mainClassName}>
+                <PTextArea
+                    data={item}
+                />
+            </div>
             <div className={item.quotePerson}></div>
         </li>
     );

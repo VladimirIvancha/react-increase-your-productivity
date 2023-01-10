@@ -1016,6 +1016,7 @@
   width: 100%;
   min-height: 480px;
   background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
+  overflow: hidden;
 }
 .quotes__textArea {
   display: flex;
@@ -1077,20 +1078,17 @@
   visibility: visible;
   grid-template-columns: repeat(2, 1fr);
 }
-.quotes__item {
-  visibility: visible;
+.quotes__container {
+  max-width: 425px;
+  padding: 0 0 31px 0;
+  background-color: transparent;
   position: relative;
+}
+.quotes__item {
   min-height: auto;
-  margin: 0 0 0 132px;
+  margin: 0;
   padding: 41px 71px 53px 69px;
   background-color: #FFFFFF;
-}
-.quotes__item_hidden {
-  display: none;
-}
-.quotes__pTextArea {
-  width: 100%;
-  min-width: 283px;
 }
 .quotes__pText {
   font-family: "Roboto";
@@ -1112,10 +1110,25 @@
   background-size: contain;
   position: absolute;
   left: 190px;
-  bottom: -30px;
+  bottom: 0;
   padding: 0;
 }
 .quotes__person_john-brow {
+  background-image: url(../assets/images/quotes-john-brow.png);
+}
+.quotes__person_jack-black {
+  background-image: url(../assets/images/quotes-john-brow.png);
+}
+.quotes__person_lionel-messi {
+  background-image: url(../assets/images/quotes-john-brow.png);
+}
+.quotes__person_kurt-russel {
+  background-image: url(../assets/images/quotes-john-brow.png);
+}
+.quotes__person_demi-moor {
+  background-image: url(../assets/images/quotes-john-brow.png);
+}
+.quotes__person_kristina-ricci {
   background-image: url(../assets/images/quotes-john-brow.png);
 }
 .quotes__circleSet {
