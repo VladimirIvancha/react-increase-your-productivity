@@ -1,6 +1,7 @@
 import React from 'react';
 import Blog from './Blog/Blog';
 import Customers from './Customers/Customers';
+import Faq from './Faq/Faq';
 import Features from './Features/Features';
 import Intro from './Intro/Intro';
 import PlanAndManage from './Plan&Manage/PlanAndManage';
@@ -17,6 +18,7 @@ function Main() {
       <Stats />
       <Blog />
       <Quotes />
+      <Faq />
     </main>
   );
 }

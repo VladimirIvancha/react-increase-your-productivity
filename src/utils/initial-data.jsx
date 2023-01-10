@@ -295,6 +295,87 @@ const initialQuotesData = [
   },
 ]
 
+const faqPhTextArea = {
+  textAreaClass: "faq__phTextArea",
+  p1Class: "faq__phSubtitle",
+  p1Text: "Customer help",
+  hClass: "faq__phTitle",
+  hText: "Frequently asked questions",
+};
+
+const initialMenuFaqData = [
+  {
+    id: "faq-01",
+    mainClassName: "faq__item",
+    faqHeaderClassName: "faq__wrapper faq__wrapper_horizontal",
+    faqArrowClassName: "faq__arrow",
+    questionClassName: "faq__question",
+    questionText: "Reque insolens in vel?",
+    faqBodyClassName: "faq__wrapper faq__wrapper_horizontal faq__wrapper_body faq__wrapper_hidden",
+    answerClassName: "faq__answer",
+    answerText: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.",
+    faqBtnClass: "faq__actionButton",
+    btnText: "Go to documentation",
+    faqLineClassName: "faq__line"
+  },
+  {
+    id: "faq-02",
+    mainClassName: "faq__item",
+    faqHeaderClassName: "faq__wrapper faq__wrapper_horizontal",
+    faqArrowClassName: "faq__arrow",
+    questionClassName: "faq__question",
+    questionText: "Vis rebum error graecis ea, id sit postea accusamus?",
+    faqBodyClassName: "faq__wrapper faq__wrapper_horizontal faq__wrapper_body faq__wrapper_hidden",
+    answerClassName: "faq__answer",
+    answerText: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.",
+    faqBtnClass: "faq__actionButton",
+    btnText: "Go to documentation",
+    faqLineClassName: "faq__line"
+  },
+  {
+    id: "faq-03",
+    mainClassName: "faq__item",
+    faqHeaderClassName: "faq__wrapper faq__wrapper_horizontal",
+    faqArrowClassName: "faq__arrow faq__arrow_active",
+    questionClassName: "faq__question faq__question_active",
+    questionText: "Lorem repudiandae ne nec?",
+    faqBodyClassName: "faq__wrapper faq__wrapper_horizontal faq__wrapper_body",
+    answerClassName: "faq__answer",
+    answerText: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.",
+    faqBtnClass: "faq__actionButton",
+    btnText: "Go to documentation",
+    faqLineClassName: "faq__line"
+  },
+  {
+    id: "faq-04",
+    mainClassName: "faq__item",
+    faqHeaderClassName: "faq__wrapper faq__wrapper_horizontal",
+    faqArrowClassName: "faq__arrow",
+    questionClassName: "faq__question",
+    questionText: "Ad dicit numquam vel. Et eos iudico feugait percipitur?",
+    faqBodyClassName: "faq__wrapper faq__wrapper_horizontal faq__wrapper_body faq__wrapper_hidden",
+    answerClassName: "faq__answer",
+    answerText: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.",
+    faqBtnClass: "faq__actionButton",
+    btnText: "Go to documentation",
+    faqLineClassName: "faq__line"
+  },
+  {
+    id: "faq-05",
+    mainClassName: "faq__item",
+    faqHeaderClassName: "faq__wrapper faq__wrapper_horizontal",
+    faqArrowClassName: "faq__arrow",
+    questionClassName: "faq__question",
+    questionText: "Sea no dico percipitur. Fierent constituam definitiones id eum?",
+    faqBodyClassName: "faq__wrapper faq__wrapper_horizontal faq__wrapper_body faq__wrapper_hidden",
+    answerClassName: "faq__answer",
+    answerText: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.",
+    faqBtnClass: "faq__actionButton",
+    btnText: "Go to documentation",
+    faqLineClassName: "faq__line"
+  },
+]
+
 export {
   initialMenuItemsData,
   initialMenuIconsData,
@@ -308,4 +389,6 @@ export {
   blogHpTextArea,
   quotesPhpTextArea,
   initialQuotesData,
+  faqPhTextArea,
+  initialMenuFaqData,
 };

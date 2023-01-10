@@ -1,7 +1,7 @@
 import React from "react";
 import PhpTextArea from "../../TextAreas/P-h-p/PhpTextArea";
 import { quotesPhpTextArea } from "../../../utils/initial-data";
-import QuotesSwiper from "../QuotesSwiper/QuotesSwiper";
+import QuotesSwiper from "../../Swiper/QuotesSwiper/QuotesSwiper";
 
 function Quotes() {
     return (
