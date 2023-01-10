@@ -95,6 +95,19 @@
   padding: 0;
 }
 
+@mixin bg-quotes-set {
+  width: 62px;
+  height: 62px;
+  border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 190px;
+  bottom: -30px;
+  padding: 0;
+}
+
 @mixin font-qn700 {
   font-family: 'Quicksand';
   font-style: normal;

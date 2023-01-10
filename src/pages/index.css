@@ -1009,4 +1009,130 @@
   background-color: #D1D6E3;
 }
 
+.quotes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  min-height: 480px;
+  background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
+}
+.quotes__textArea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 0 0 276px;
+  min-width: 333px;
+}
+.quotes__subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #3D4F9F;
+  width: 80%;
+  text-align: left;
+}
+.quotes__title {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  line-height: 45px;
+  color: #3D4F9F;
+  width: 100%;
+  text-align: left;
+  margin: 31px 0 0 0;
+}
+.quotes__text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 23px;
+  color: #A4ABC8;
+  letter-spacing: 0.03em;
+  width: 100%;
+  margin: 14px 0 0 0;
+}
+.quotes__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quotes__menu {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  list-style: none;
+  height: auto;
+  visibility: visible;
+  grid-template-columns: repeat(2, 1fr);
+}
+.quotes__item {
+  visibility: visible;
+  position: relative;
+  min-height: auto;
+  margin: 0 0 0 132px;
+  padding: 41px 71px 53px 69px;
+  background-color: #FFFFFF;
+}
+.quotes__item_hidden {
+  display: none;
+}
+.quotes__pTextArea {
+  width: 100%;
+  min-width: 283px;
+}
+.quotes__pText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #676F95;
+}
+.quotes__person {
+  width: 62px;
+  height: 62px;
+  border: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 190px;
+  bottom: -30px;
+  padding: 0;
+}
+.quotes__person_john-brow {
+  background-image: url(../assets/images/quotes-john-brow.png);
+}
+.quotes__circleSet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 168px;
+  justify-content: space-between;
+  margin: 78px 0 0 0;
+}
+.quotes__circleSet-item {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #D1D6E3;
+}
+
 /*# sourceMappingURL=index.css.map */

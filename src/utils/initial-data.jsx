@@ -240,7 +240,7 @@ const initialQuotesData = [
   },
   {
     id: 'jack-black-quote',
-    mainClassName: "quotes__item",
+    mainClassName: "quotes__item quotes__item_hidden",
     textAreaClass: "quotes__pTextArea",
     p1Class: "quotes__pText",
     p1Text: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.",
@@ -248,7 +248,7 @@ const initialQuotesData = [
   },
   {
     id: 'lionel-messi-quote',
-    mainClassName: "quotes__item",
+    mainClassName: "quotes__item quotes__item_hidden",
     textAreaClass: "quotes__pTextArea",
     p1Class: "quotes__pText",
     p1Text: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.",
@@ -256,7 +256,7 @@ const initialQuotesData = [
   },
   {
     id: 'kurt-russel-quote',
-    mainClassName: "quotes__item",
+    mainClassName: "quotes__item quotes__item_hidden",
     textAreaClass: "quotes__pTextArea",
     p1Class: "quotes__pText",
     p1Text: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.",
@@ -264,7 +264,7 @@ const initialQuotesData = [
   },
   {
     id: 'demi-moor-quote',
-    mainClassName: "quotes__item",
+    mainClassName: "quotes__item quotes__item_hidden",
     textAreaClass: "quotes__pTextArea",
     p1Class: "quotes__pText",
     p1Text: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.",
@@ -272,7 +272,7 @@ const initialQuotesData = [
   },
   {
     id: 'kristina-ricci-quote',
-    mainClassName: "quotes__item",
+    mainClassName: "quotes__item quotes__item_hidden",
     textAreaClass: "quotes__pTextArea",
     p1Class: "quotes__pText",
     p1Text: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.",

@@ -1,49 +1,100 @@
 .quotes {
+    @include fr-center;
+    width: 100%;
+    min-height: 480px;
+    background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);;
 
     &__textArea {
-
+        @include fc-left;
+        margin: 0 0 0 276px;
+        min-width: 333px;
     }
 
     &__subtitle {
-
+        @include font-rn500;
+        @include mp-0;
+        font-size: 10px;
+        line-height: 12px;
+        text-transform: uppercase;
+        color: $darkBlue;
+        width: 80%;
+        text-align: left;
     }
 
     &__title {
-
+        @include font-qn500;
+        @include mp-0;
+        font-size: 36px;
+        line-height: 45px;
+        color: $darkBlue;
+        width: 100%;
+        text-align: left;
+        margin: 31px 0 0 0;
     }
 
     &__text {
-
+        @include fr-center;
+        @include mp-0;
+        font-size: 12px;
+        line-height: 23px;
+        color: $anotherGreyText;
+        letter-spacing: 0.03em;
+        width: 100%;
+        margin: 14px 0 0 0;
     }
 
     &__wrapper {
-
+        @include fc-center;
     }
 
     &__menu {
-
+        @include mp-0;
+        display: grid;
+        list-style: none;
+        height: auto;
+        visibility: visible;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     &__item {
+        visibility: visible;
+        position: relative;
+        min-height: auto;
+        margin: 0 0 0 132px;
+        padding: 41px 71px 53px 69px;
+        background-color: $white;
 
+
+        &_hidden {
+            // visibility: hidden;
+            display: none;
+        }
     }
+    
 
     &__pTextArea {
-
+        width: 100%;
+        min-width: 283px;
     }
 
     &__pText {
-
+        @include font-rn400;
+        @include mp-0;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: $newGreyText;
     }
 
     &__person {
+        @include bg-quotes-set;
 
         &_john-brow {
-
+            background-image: url(../assets/images/quotes-john-brow.png);
         }
 
         &_jack-black {
-
+            
         }
 
         &_lionel-messi {
@@ -64,10 +115,17 @@
     }
 
     &__circleSet {
-
+        @include fr-center;
+        @include mp-0;
+        width: 168px;
+        justify-content: space-between;
+        margin: 78px 0 0 0;
     }
 
     &__circleSet-item {
-        
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: $grey;
     }
 }
