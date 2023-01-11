@@ -391,6 +391,14 @@ const getStartedPhHhpTextArea = {
     "Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.",
 };
 
+const newsletterHpTextArea = {
+  textAreaClass: "newsletter__hpTextArea",
+  hClass: "newsletter__hpTitle",
+  hText: "Sign up for newsletter",
+  pClass: "newsletter__hpSubtitle",
+  pText: "Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu, homero alterum.",
+};
+
 export {
   initialMenuItemsData,
   initialMenuIconsData,
@@ -407,4 +415,5 @@ export {
   faqPhTextArea,
   initialMenuFaqData,
   getStartedPhHhpTextArea,
+  newsletterHpTextArea,
 };

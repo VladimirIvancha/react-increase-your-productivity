@@ -5,6 +5,7 @@ import Faq from './Faq/Faq';
 import Features from './Features/Features';
 import GetStarted from './GetStarted/GetStarted';
 import Intro from './Intro/Intro';
+import Newsletter from './Newsletter/Newsletter';
 import PlanAndManage from './Plan&Manage/PlanAndManage';
 import Quotes from './Quotes/Quotes';
 import Stats from './Stats/Stats';
@@ -21,6 +22,7 @@ function Main() {
       <Quotes />
       <Faq />
       <GetStarted />
+      <Newsletter />
     </main>
   );
 }
