@@ -3,6 +3,7 @@ import Blog from './Blog/Blog';
 import Customers from './Customers/Customers';
 import Faq from './Faq/Faq';
 import Features from './Features/Features';
+import GetStarted from './GetStarted/GetStarted';
 import Intro from './Intro/Intro';
 import PlanAndManage from './Plan&Manage/PlanAndManage';
 import Quotes from './Quotes/Quotes';
@@ -19,6 +20,7 @@ function Main() {
       <Blog />
       <Quotes />
       <Faq />
+      <GetStarted />
     </main>
   );
 }

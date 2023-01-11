@@ -374,7 +374,22 @@ const initialMenuFaqData = [
     btnText: "Go to documentation",
     faqLineClassName: "faq__line"
   },
-]
+];
+
+const getStartedPhHhpTextArea = {
+  textAreaClass: "getStarted__textArea",
+  p1Class: "getStarted__subtitle",
+  p1Text: "Plan your life",
+  wrapperClass: "getStarted__textAreaWrapper",
+  h3Class: "getStarted__h3Title",
+  hTexth1: "Get",
+  h2Class: "getStarted__h3Title getStarted__h3Title_bold",
+  hTexth2: "started",
+  hTexth3: "now",
+  p2Class: "getStarted__text",
+  p2Text:
+    "Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.",
+};
 
 export {
   initialMenuItemsData,
@@ -391,4 +406,5 @@ export {
   initialQuotesData,
   faqPhTextArea,
   initialMenuFaqData,
+  getStartedPhHhpTextArea,
 };

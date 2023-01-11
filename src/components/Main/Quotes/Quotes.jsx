@@ -12,6 +12,6 @@ function Quotes() {
             <QuotesSwiper />
         </section>
     );
-}
+};
 
 export default Quotes;
