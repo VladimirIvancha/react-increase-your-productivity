@@ -8,7 +8,7 @@ function MenuFaqItem({ item }) {
 
     const arrowClass = arrowActive ? item.faqArrowClassNameActive : item.faqArrowClassName;
     const questionClass = questionActive ? item.questionClassNameActive : item.questionClassName;
-    const bodyClass = bodyActive ? item.faqBodyClassName : item.faqBodyClassNameActive;
+    const bodyClass = bodyActive ? item.faqBodyClassNameActive : item.faqBodyClassName;
 
     function handleQuestionClick() {
         setArrowActive(!arrowActive);
