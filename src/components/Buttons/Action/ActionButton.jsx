@@ -3,10 +3,11 @@ import React from "react";
 function ActionButton({
     name,
     className,
+    onClick,
 })
 {  
     return (
-        <button className={className}>{name}</button>
+        <button className={className} onClick={onClick}>{name}</button>
     );
 }
 

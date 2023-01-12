@@ -1342,6 +1342,7 @@
   background: #D2E1FF;
   border-style: none;
   margin: 0 0 0 42px;
+  cursor: pointer;
 }
 .faq__line {
   width: 100%;

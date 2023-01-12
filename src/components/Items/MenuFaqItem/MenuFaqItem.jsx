@@ -16,6 +16,10 @@ function MenuFaqItem({ item }) {
         setBodyActive(!bodyActive);
     }
 
+    function handleBtnClick() {
+
+    }
+
   return (
     <li className={item.mainClassName} id={item.id}>
       <div className={item.faqHeaderClassName} onClick={handleQuestionClick}>
@@ -27,6 +31,7 @@ function MenuFaqItem({ item }) {
         <ActionButton
           name={item.btnText}
           className={item.faqBtnClass}
+          onClick={handleBtnClick}
         />
       </div>
       <div className={item.faqLineClassName}></div>
