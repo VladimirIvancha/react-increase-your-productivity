@@ -5,10 +5,12 @@ import HpTextArea from "../../TextAreas/H-p/HpTextArea";
 import PhTextArea from "../../TextAreas/P-h/PhTextArea";
 import CircleSet from "../../Sets/Circle/CircleSet";
 import { blogPhTextArea, blogHpTextArea } from "../../../utils/initial-data";
+import PageLine from "../../Shapes/Lines/PageLine";
 
 function Blog() {
   return (
     <section className="blog">
+      <div className="blog__container">
       <PhTextArea data={blogPhTextArea} />
       <div className="blog__wrapper">
         <FigureButton className={"blog__icon-arrow-left"} />
@@ -38,6 +40,8 @@ function Blog() {
         setClassName={'blog__circleSet'}
         itemClassName={'blog__circleSet-item'}
       />
+      </div>
+      <PageLine id={"blog-pageLine"} />
     </section>
   );
 }

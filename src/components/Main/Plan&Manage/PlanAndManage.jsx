@@ -3,11 +3,12 @@ import PhpTextArea from "../../TextAreas/P-h-p/PhpTextArea";
 import ActionButton from "../../Buttons/Action/ActionButton";
 import VideoButton from "../../Buttons/Video/VideoButton";
 import { planAndManagePhpTextArea } from "../../../utils/initial-data";
+import PageLine from "../../Shapes/Lines/PageLine";
 
 function PlanAndManage() {
   return (
     <section className="planAndManage">
-      <div className="planAndManage__wrapper">
+      <div className="planAndManage__wrapper planAndManage__wrapper_main">
         <div className="planAndManage__wrapper planAndManage__wrapper_info">
           <PhpTextArea 
             data={planAndManagePhpTextArea} 
@@ -30,6 +31,7 @@ function PlanAndManage() {
           <div className="planAndManage__illustration-events"></div>
         </div>
       </div>
+      <PageLine id={"planAndManage-pageLine"} />
     </section>
   );
 }

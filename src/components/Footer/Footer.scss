@@ -1,12 +1,12 @@
-.header {
+.footer {
     @include fc-center;
-    width: 100%;
-    
+    max-width: 1440px;
+    width: 80%;
+
     &__container {
         @include fr-center;
-        max-width: 1440px;
-        width: 80%;
         justify-content: space-between;
+        margin: 93px 0 0 0;
     }
 
     &__circleShape {
@@ -32,5 +32,15 @@
         border-radius: 2px;
         margin: 19px 0 19px 44px;
         border-style: none;
+    }
+
+    &__copyright {
+        @include font-qn500;
+        @include mp-0;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.05em;
+        color: #AEB8D0;
+        margin: 28px 0 93px 0;
     }
 }

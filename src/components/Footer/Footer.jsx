@@ -3,26 +3,25 @@ import CircleShape from "../Shapes/Circle/CircleShape";
 import HeaderTextMenu from "../Menus/HeaderText/HeaderTextMenu";
 import HeaderIconsMenu from "../Menus/HeaderIcons/HeaderIconsMenu";
 import ActionButton from "../Buttons/Action/ActionButton";
-import PageLine from "../Shapes/Lines/PageLine";
 
-function Header() {
+function Footer() {
   return (
-    <header className="header">
-      <div className="header__container">
-        <div className="header__wrapper">
-          <CircleShape className={"header__circleShape"} />
+    <footer className="footer">
+      <div className="footer__container">
+        <div className="footer__wrapper">
+          <CircleShape className={"footer__circleShape"} />
           <HeaderTextMenu />
         </div>
-        <div className="header__wrapper">
+        <div className="footer__wrapper">
           <HeaderIconsMenu />
           <ActionButton
             name={"Get Started"}
-            className={"header__actionButton"}
+            className={"footer__actionButton"}
           />
         </div>
       </div>
-      <PageLine id={"header-pageLine"} />
-    </header>
+      <p className="footer__copyright">Copyright &copy; 2022 by Vladimir Ivancha</p>
+    </footer>
   );
 }
-export default Header;
+export default Footer;

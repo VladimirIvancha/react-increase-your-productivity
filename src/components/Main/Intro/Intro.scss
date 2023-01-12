@@ -1,13 +1,18 @@
 .intro {
     @include fc-center;
     width: 100%;
-    min-height: 570px;
-    background-color: $paleWhite;
-    background-image: url(../assets/images/intro-clouds.svg);
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
+
+    &__container {
+        @include fc-center;
+        width: 100%;
+        background-color: $paleWhite;
+        background-image: url(../assets/images/intro-clouds.svg);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        min-height: 570px;
+    }
 
     &__ellipse {
         width: 100px;

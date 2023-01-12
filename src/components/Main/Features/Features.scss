@@ -1,12 +1,17 @@
 .features {
     @include fc-center;
     width: 100%;
-    min-height: 885px;
     background-color: $white;
     background-image: url(../assets/images/features-clouds.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1400px 600px;
+
+    &__container {
+        @include fc-center;
+        width: 100%;
+        min-height: 885px;
+    }
 
     &__textArea {
         @include fc-center;

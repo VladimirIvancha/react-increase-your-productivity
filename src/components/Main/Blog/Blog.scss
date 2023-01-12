@@ -1,8 +1,13 @@
 .blog {
     @include fc-center;
     width: 100%;
-    min-height: 865px;
-    background-color: $paleGrey;
+
+    &__container {
+        @include fc-center;
+        width: 100%;
+        min-height: 865px;
+        background-color: $paleGrey;
+    }
 
     &__phTextArea {
         @include fc-center;

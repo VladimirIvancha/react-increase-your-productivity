@@ -1,12 +1,17 @@
 .getStarted {
     @include fc-center;
     width: 100%;
-    min-height: 447px;
     background-color: #5E80FF;
     background-image: url(../assets/images/getstarted-clouds.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
+
+    &__container {
+        @include fc-center;
+        width: 100%;
+        min-height: 447px;
+    }
 
     &__textArea {
         @include fc-center;

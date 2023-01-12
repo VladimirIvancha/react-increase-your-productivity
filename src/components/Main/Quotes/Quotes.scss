@@ -1,9 +1,14 @@
 .quotes {
-    @include fr-center;
+    @include fc-center;
     width: 100%;
-    min-height: 480px;
-    background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
-    overflow: hidden;
+
+    &__container {
+        @include fr-center;
+        width: 100%;
+        min-height: 480px;
+        background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
+        overflow: hidden;
+    }
 
     &__textArea {
         @include fc-left;
@@ -57,7 +62,7 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    &__container {
+    &__item-container {
         max-width: 425px;
         padding: 0 0 31px 0;
         background-color: transparent;

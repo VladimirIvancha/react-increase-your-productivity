@@ -1,8 +1,13 @@
 .stats {
-    @include fr-center;
+    @include fc-center;
     width: 100%;
-    min-height: 342px;
-    position: relative;
+
+    &__container {
+        @include fr-center;
+        width: 100%;
+        min-height: 342px;
+        position: relative;
+    }
 
     &__block {
         width: 100%;

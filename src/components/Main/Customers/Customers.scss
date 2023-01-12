@@ -1,5 +1,14 @@
 .customers {
-    @include fcj-center;
     width: 100%;
-    min-height: 146px;
+
+    &__container {
+        @include fcj-center;
+        width: 100%;
+        min-height: 146px;
+    }
+
+    &__logoMenu {
+        @include fr-center;
+        @include mp-0
+    }
 }

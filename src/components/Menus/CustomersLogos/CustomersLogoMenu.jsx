@@ -4,7 +4,7 @@ import { initialMenuLogoData } from "../../../utils/initial-data";
 
 function CustomersLogoMenu() {
     return (
-      <ul className='customersLogoMenu'>
+      <ul className='customers__logoMenu'>
         {
           initialMenuLogoData.map(item => 
             (

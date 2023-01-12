@@ -1,7 +1,12 @@
 .faq {
     @include fc-center;
     width: 100%;
-    min-height: 480px;
+
+    &__container {
+        @include fc-center;
+        width: 100%;
+        min-height: 480px;
+    }
 
     &__phTextArea {
         @include fc-center;

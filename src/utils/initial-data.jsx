@@ -177,8 +177,8 @@ const initialStatsData = [
     textAreaClass: "stats__itemTextArea stats__itemTextArea_left",
     hClass: "stats__item-title stats__item-title_white",
     hText: "89%",
-    p1Class: "stats__item-text stats__item-text_white",
-    p1Text: "Customers who have increased their productivity",
+    pClass: "stats__item-text stats__item-text_white",
+    pText: "Customers who have increased their productivity",
   },
   {
     id: "stats__used-item",
@@ -187,8 +187,8 @@ const initialStatsData = [
     textAreaClass: "stats__itemTextArea stats__itemTextArea_right",
     hClass: "stats__item-title stats__item-title_blue",
     hText: "3123",
-    p1Class: "stats__item-text stats__item-text_blue",
-    p1Text: "Users who have used our application",
+    pClass: "stats__item-text stats__item-text_blue",
+    pText: "Users who have used our application",
   },
   // {
   //   id: "",
@@ -232,7 +232,7 @@ const quotesPhpTextArea = {
 const initialQuotesData = [
   {
     id: 'john-brown-quote',
-    containerClassName: "quotes__container",
+    containerClassName: "quotes__item-container",
     mainClassName: "quotes__item",
     textAreaClass: "quotes__pTextArea",
     p1Class: "quotes__pText",
@@ -241,7 +241,7 @@ const initialQuotesData = [
   },
   {
     id: 'jack-black-quote',
-    containerClassName: "quotes__container",
+    containerClassName: "quotes__item-container",
     mainClassName: "quotes__item",
     textAreaClass: "quotes__pTextArea",
     p1Class: "quotes__pText",
@@ -250,7 +250,7 @@ const initialQuotesData = [
   },
   {
     id: 'lionel-messi-quote',
-    containerClassName: "quotes__container",
+    containerClassName: "quotes__item-container",
     mainClassName: "quotes__item",
     textAreaClass: "quotes__pTextArea",
     p1Class: "quotes__pText",
@@ -259,7 +259,7 @@ const initialQuotesData = [
   },
   {
     id: 'kurt-russel-quote',
-    containerClassName: "quotes__container",
+    containerClassName: "quotes__item-container",
     mainClassName: "quotes__item",
     textAreaClass: "quotes__pTextArea",
     p1Class: "quotes__pText",
@@ -268,7 +268,7 @@ const initialQuotesData = [
   },
   {
     id: 'demi-moor-quote',
-    containerClassName: "quotes__container",
+    containerClassName: "quotes__item-container",
     mainClassName: "quotes__item",
     textAreaClass: "quotes__pTextArea",
     p1Class: "quotes__pText",
@@ -277,7 +277,7 @@ const initialQuotesData = [
   },
   {
     id: 'kristina-ricci-quote',
-    containerClassName: "quotes__container",
+    containerClassName: "quotes__item-container",
     mainClassName: "quotes__item",
     textAreaClass: "quotes__pTextArea",
     p1Class: "quotes__pText",

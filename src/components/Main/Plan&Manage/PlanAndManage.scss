@@ -1,7 +1,7 @@
 .planAndManage {
     @include fc-center;
     width: 100%;
-    min-height: 776px;
+    
     background-color: $paleGrey;
     justify-content: center;
 
@@ -44,6 +44,10 @@
 
     &__wrapper {
         @include fr-center;
+
+        &_main {
+            min-height: 776px;
+        }
 
         &_info {
             @include fc-left;
