@@ -51,12 +51,35 @@
             @include fr-center;
         }
 
-        &_hidden {
-            display: none;
+        &_question {
+            cursor: pointer;
         }
 
         &_body {
             padding: 5px 0 42px 60px;
+            display: none;
+        }
+
+        &_active {
+            display: flex;
+            animation: fadeIn .5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% {
+              display: none;
+              opacity: 0;
+            }
+        
+            1% {
+              display: block;
+              opacity: 0;
+            }
+        
+            100% {
+              display: block;
+              opacity: 1;
+            }
         }
     }
 
@@ -73,9 +96,10 @@
         background-repeat: no-repeat;
         background-color: transparent;
         background-size: contain;
+        transition: all .3s linear;
 
         &_active {
-            background-image: url(../assets/images/faq-arrow-up.svg);
+            transform: rotate(180deg);
         }
     }
 
