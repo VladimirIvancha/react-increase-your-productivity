@@ -1,11 +1,18 @@
-import React from "react";
+import React, {useContext} from "react";
 import PhpTextArea from "../../TextAreas/P-h-p/PhpTextArea";
 import ActionButton from "../../Buttons/Action/ActionButton";
 import VideoButton from "../../Buttons/Video/VideoButton";
 import { planAndManagePhpTextArea } from "../../../utils/initial-data";
 import PageLine from "../../Shapes/Lines/PageLine";
+import InfoPopupContext from "../../../contexts/InfoPopupContext";
 
 function PlanAndManage() {
+  const { setInfoPopupOpen } = useContext(InfoPopupContext);
+
+  function handleBtnClick() {
+    setInfoPopupOpen(true);
+  }
+
   return (
     <section className="planAndManage">
       <div className="planAndManage__wrapper planAndManage__wrapper_main">
@@ -22,6 +29,7 @@ function PlanAndManage() {
             <ActionButton
               name={'See features'}
               className={'planAndManage__actionButton'}
+              onClick={handleBtnClick}
             />
           </div>
         </div>

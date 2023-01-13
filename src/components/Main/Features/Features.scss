@@ -1,151 +1,155 @@
 .features {
+  @include fc-center;
+  width: 100%;
+  background-color: $white;
+  background-image: url(../assets/images/features-clouds.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1400px 600px;
+
+  &__container {
     @include fc-center;
     width: 100%;
-    background-color: $white;
-    background-image: url(../assets/images/features-clouds.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 1400px 600px;
+    min-height: 885px;
+  }
 
-    &__container {
-        @include fc-center;
-        width: 100%;
-        min-height: 885px;
+  &__textArea {
+    @include fc-center;
+    margin: 171px 0 0 0;
+  }
+
+  &__subtitle {
+    @include font-rn500;
+    @include mp-0;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: $darkBlue;
+    width: 56px;
+    text-align: center;
+  }
+
+  &__title {
+    @include font-qn500;
+    @include mp-0;
+    font-size: 24px;
+    line-height: 30px;
+    color: $darkBlue;
+    width: 229px;
+    text-align: center;
+    margin: 20px 0 0 0;
+  }
+
+  &__wrapper {
+    @include fr-top;
+    @include mp-0;
+    list-style: none;
+    width: 100%;
+    max-width: 761px;
+    margin: 92px 0 0 0;
+    justify-content: space-between;
+
+    &_buttons {
+      @include fr-center;
+      max-width: 337px;
+      justify-content: center;
     }
 
-    &__textArea {
-        @include fc-center;
-        margin: 171px 0 0 0;
+    &_text {
+      @include fr-center;
+      max-width: 110px;
+      margin: 0;
+      justify-content: space-evenly;
+    }
+  }
+
+  &__item {
+    @include fc-center;
+    width: 140px;
+    min-height: 254px;
+  }
+
+  &__overview-item {
+    @include bg-feture-set;
+    background-image: url(../assets/images/features-overview-icon.svg);
+  }
+
+  &__files-item {
+    @include bg-feture-set;
+    background-image: url(../assets/images/features-files-icon.svg);
+  }
+
+  &__meetingChats-item {
+    @include bg-feture-set;
+    background-image: url(../assets/images/features-meetingChats-icon.svg);
+  }
+
+  &__saveEvents-item {
+    @include bg-feture-set;
+    background-image: url(../assets/images/features-saveEvents-icon.svg);
+  }
+
+  &__itemTextArea {
+    @include fc-center;
+    @include mp-0;
+    margin: 33px 0 0 0;
+  }
+
+  &__item-title {
+    @include mp-0;
+    @include font-qn700;
+    text-align: center;
+    color: $textBlue;
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  &__item-text {
+    @include mp-0;
+    @include font-qn500;
+    text-align: center;
+    color: $textGrey;
+    font-size: 11px;
+    line-height: 19px;
+    margin: 25px 0 0 0;
+  }
+
+  &__actionButton {
+    @include font-qn700;
+    @include mp-0;
+    font-size: 13px;
+    line-height: 16px;
+    width: 113px;
+    height: 43px;
+    border-radius: 2px;
+    border-style: none;
+    cursor: pointer;
+
+    &_red {
+      color: $btnTextRed;
+      background: $btnBGRed;
     }
 
-    &__subtitle {
-        @include font-rn500;
-        @include mp-0;
-        font-size: 10px;
-        line-height: 12px;
-        text-transform: uppercase;
-        color: $darkBlue;
-        width: 56px;
-        text-align: center;
+    &_blue {
+      color: $btnTextBlue;
+      background: $btnBGBlue;
     }
 
-    &__title {
-        @include font-qn500;
-        @include mp-0;
-        font-size: 24px;
-        line-height: 30px;
-        color: $darkBlue;
-        width: 229px;
-        text-align: center;
-        margin: 20px 0 0 0;
+    &:hover {
+      opacity: 0.8;
     }
+  }
 
-    &__wrapper {
-        @include fr-top;
-        @include mp-0;
-        list-style: none;
-        width: 100%;
-        max-width: 761px;
-        margin: 92px 0 0 0;
-        justify-content: space-between;
+  &__line {
+    width: 15px;
+    border: 1px solid $lineGrey;
+  }
 
-        &_buttons {
-            @include fr-center;
-            max-width: 337px;
-            justify-content: center;
-        }
-
-        &_text {
-            @include fr-center;
-            max-width: 110px;
-            margin: 0;
-            justify-content: space-evenly;
-        }
-    }
-
-    &__item {
-        @include fc-center;
-        width: 140px;
-        min-height: 254px;
-    }
-
-    &__overview-item {
-        @include bg-feture-set;
-        background-image: url(../assets/images/features-overview-icon.svg);
-    }
-
-    &__files-item {
-        @include bg-feture-set;
-        background-image: url(../assets/images/features-files-icon.svg);
-    }
-
-    &__meetingChats-item {
-        @include bg-feture-set;
-        background-image: url(../assets/images/features-meetingChats-icon.svg);
-    }
-
-    &__saveEvents-item {
-        @include bg-feture-set;
-        background-image: url(../assets/images/features-saveEvents-icon.svg);
-    }
-
-    &__itemTextArea {
-        @include fc-center;
-        @include mp-0;
-        margin: 33px 0 0 0;
-    }
-
-    &__item-title {
-        @include mp-0;
-        @include font-qn700;
-        text-align: center;
-        color: $textBlue;
-        font-size: 14px;
-        line-height: 25px;
-    }
-
-    &__item-text {
-        @include mp-0;
-        @include font-qn500;
-        text-align: center;
-        color: $textGrey;
-        font-size: 11px;
-        line-height: 19px;
-        margin: 25px 0 0 0;
-    }
-
-    &__actionButton {
-        @include font-qn700;
-        @include mp-0;
-        font-size: 13px;
-        line-height: 16px;
-        width: 113px;
-        height: 43px;
-        border-radius: 2px;
-        border-style: none;
-        
-
-        &_red {
-            color: $btnTextRed;
-            background: $btnBGRed;
-        }
-
-        &_blue {
-            color: $btnTextBlue;
-            background: $btnBGBlue;
-        }
-    }
-
-    &__line {
-        width: 15px;
-        border: 1px solid $lineGrey;
-    }
-
-    &__text {
-        @include mp-0;
-        @include font-qn500;
-        font-size: 11px;
-        line-height: 19px;
-        text-transform: uppercase;
-    }
+  &__text {
+    @include mp-0;
+    @include font-qn500;
+    font-size: 11px;
+    line-height: 19px;
+    text-transform: uppercase;
+  }
 }

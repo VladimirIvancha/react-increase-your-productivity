@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import ActionButton from "../../Buttons/Action/ActionButton";
+import InfoPopupContext from "../../../contexts/InfoPopupContext";
 
 function MenuFaqItem({ item }) {
+    const { setInfoPopupOpen } = useContext(InfoPopupContext);
     const [arrowActive, setArrowActive] = useState(false);
     const [questionActive, setQuestionActive] = useState(false);
     const [bodyActive, setBodyActive] = useState(false);
@@ -17,7 +19,7 @@ function MenuFaqItem({ item }) {
     }
 
     function handleBtnClick() {
-
+        setInfoPopupOpen(true);
     }
 
   return (

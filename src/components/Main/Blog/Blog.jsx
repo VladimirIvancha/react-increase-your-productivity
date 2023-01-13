@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useContext} from "react";
 import ActionButton from "../../Buttons/Action/ActionButton";
 import FigureButton from "../../Buttons/Figure/FigureButton";
 import HpTextArea from "../../TextAreas/H-p/HpTextArea";
@@ -6,8 +6,15 @@ import PhTextArea from "../../TextAreas/P-h/PhTextArea";
 import CircleSet from "../../Sets/Circle/CircleSet";
 import { blogPhTextArea, blogHpTextArea } from "../../../utils/initial-data";
 import PageLine from "../../Shapes/Lines/PageLine";
+import InfoPopupContext from "../../../contexts/InfoPopupContext";
 
 function Blog() {
+  const { setInfoPopupOpen } = useContext(InfoPopupContext);
+
+  function handleBtnClick() {
+    setInfoPopupOpen(true);
+  }
+
   return (
     <section className="blog">
       <div className="blog__container">
@@ -25,10 +32,15 @@ function Blog() {
           <div className="blog__wrapper blog__wrapper_vertical-text">
             <HpTextArea data={blogHpTextArea} />
             <div className="blog__wrapper blog__wrapper_buttons">
-              <ActionButton name={"Read now"} className={"blog__btn"} />
+              <ActionButton 
+                name={"Read now"} 
+                className={"blog__btn"}
+                onClick={handleBtnClick}
+                />
               <ActionButton
                 name={"Add to your bookmarks"}
                 className={"blog__btn blog__btn_white"}
+                onClick={handleBtnClick}
               />
             </div>
           </div>

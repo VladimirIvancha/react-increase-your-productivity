@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import CircleShape from "../Shapes/Circle/CircleShape";
 import HeaderTextMenu from "../Menus/HeaderText/HeaderTextMenu";
 import HeaderIconsMenu from "../Menus/HeaderIcons/HeaderIconsMenu";
 import ActionButton from "../Buttons/Action/ActionButton";
+import InfoPopupContext from "../../contexts/InfoPopupContext";
 
 function Footer() {
+  const { setInfoPopupOpen } = useContext(InfoPopupContext);
+
+  function handleBtnClick() {
+    setInfoPopupOpen(true);
+  }
+
   return (
     <footer className="footer">
       <div className="footer__container">
@@ -17,10 +24,13 @@ function Footer() {
           <ActionButton
             name={"Get Started"}
             className={"footer__actionButton"}
+            onClick={handleBtnClick}
           />
         </div>
       </div>
-      <p className="footer__copyright">Copyright &copy; 2022 by Vladimir Ivancha</p>
+      <p className="footer__copyright">
+        Copyright &copy; 2022 by Vladimir Ivancha
+      </p>
     </footer>
   );
 }

@@ -143,6 +143,7 @@
         border: none;
         border-radius: 2px;
         background: $btnGrey;
+        cursor: pointer;
 
 
         &_white {
@@ -151,6 +152,10 @@
             width: 211px;
             height: 43px;
             margin: 0 0 0 8px;
+        }
+
+        &:hover {
+            opacity: 0.8;
         }
     }
 

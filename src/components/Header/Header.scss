@@ -1,36 +1,41 @@
 .header {
-    @include fc-center;
-    width: 100%;
-    
-    &__container {
-        @include fr-center;
-        max-width: 1440px;
-        width: 80%;
-        justify-content: space-between;
-    }
+  @include fc-center;
+  width: 100%;
 
-    &__circleShape {
-        width: 26px;
-        height: 26px;
-        border-radius: 50%;
-        background-color: $lightBlue;
-        margin-right: 73px;
-    }
+  &__container {
+    @include fr-center;
+    max-width: 1440px;
+    width: 80%;
+    justify-content: space-between;
+  }
 
-    &__wrapper {
-        @include fr-center;
-    }
+  &__circleShape {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: $lightBlue;
+    margin-right: 73px;
+  }
 
-    &__actionButton {
-        @include font-qn700;
-        font-size: 13px;
-        line-height: 16px;
-        color: #3A79FF;
-        width: 113px;
-        height: 43px;
-        background: #D2E1FF;
-        border-radius: 2px;
-        margin: 19px 0 19px 44px;
-        border-style: none;
+  &__wrapper {
+    @include fr-center;
+  }
+
+  &__actionButton {
+    @include font-qn700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3a79ff;
+    width: 113px;
+    height: 43px;
+    background: #d2e1ff;
+    border-radius: 2px;
+    margin: 19px 0 19px 44px;
+    border-style: none;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.8;
     }
+  }
 }
