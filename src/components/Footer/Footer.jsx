@@ -13,7 +13,7 @@ function Footer() {
   }
 
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <div className="footer__container">
         <div className="footer__wrapper">
           <CircleShape className={"footer__circleShape"} />

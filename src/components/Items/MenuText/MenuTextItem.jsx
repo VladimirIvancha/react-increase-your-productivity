@@ -1,14 +1,13 @@
 import React, { memo } from "react";
 
-function MenuTextItem({
-  item,
-})
-{  
-    return (
-      <li className="menuTextItem" id={item.id}>
+function MenuTextItem({ item }) {
+  return (
+    <li className={item.itemClassName} id={item.id}>
+      <a href={item.ref} className={item.linkClassName} rel="noreferrer">
         {item.name}
-      </li>
-    );
+      </a>
+    </li>
+  );
 }
 
 export default memo(MenuTextItem);

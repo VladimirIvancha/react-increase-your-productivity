@@ -4,7 +4,7 @@ import PageLine from "../../Shapes/Lines/PageLine";
 
 function Stats() {
   return (
-    <section className="stats">
+    <section className="stats" id="stats">
       <div className="stats__container">
         <div className="stats__block"></div>
         <div className="stats__block stats__block_greyBlue"></div>

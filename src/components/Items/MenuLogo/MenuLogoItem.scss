@@ -1,34 +1,38 @@
 .menuLogoItem {
   @include mp-0;
   @include bg-logo-set;
+
+  &:hover {
+    background-color: $lightBlue;
+  }
 }
 
 .bitbucket-logo {
-  background-image: url(../assets/images/logo-bitbucket.svg);
+  mask-image: url(../assets/images/logo-bitbucket.svg);
   width: 116.59px;
   height: 29px;
 }
 
 .appleWatch-logo {
-  background-image: url(../assets/images/logo-apple-watch.svg);
+  mask-image: url(../assets/images/logo-apple-watch.svg);
   width: 116.59px;
   height: 24.29px;
 }
 
 .facebook-logo {
-  background-image: url(../assets/images/logo-facebook.svg);
+  mask-image: url(../assets/images/logo-facebook.svg);
   width: 116.58px;
   height: 22.37px;
 }
 
 .atlassian-logo {
-  background-image: url(../assets/images/logo-atlassian.svg);
+  mask-image: url(../assets/images/logo-atlassian.svg);
   width: 116.57px;
   height: 24.07px;
 }
 
 .audi-logo {
-  background-image: url(../assets/images/logo-audi.svg);
+  mask-image: url(../assets/images/logo-audi.svg);
   width: 116.58px;
   height: 28.94px;
 }

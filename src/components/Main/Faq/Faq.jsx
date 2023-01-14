@@ -6,7 +6,7 @@ import PageLine from "../../Shapes/Lines/PageLine";
 
 function Faq() {
   return (
-    <section className="faq">
+    <section className="faq" id="faq">
       <div className="faq__container">
         <PhTextArea data={faqPhTextArea} />
         <FaqItemsMenu className={"faq__wrapper faq__wrapper_main"} />

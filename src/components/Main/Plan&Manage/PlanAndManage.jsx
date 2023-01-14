@@ -14,7 +14,7 @@ function PlanAndManage() {
   }
 
   return (
-    <section className="planAndManage">
+    <section className="planAndManage" id="planAndManage">
       <div className="planAndManage__wrapper planAndManage__wrapper_main">
         <div className="planAndManage__wrapper planAndManage__wrapper_info">
           <PhpTextArea 

@@ -12,7 +12,7 @@ import Stats from './Stats/Stats';
 
 function Main() {
   return (
-    <main className="main">
+    <main className="main" id="main">
       <Intro />
       <Customers />
       <PlanAndManage />

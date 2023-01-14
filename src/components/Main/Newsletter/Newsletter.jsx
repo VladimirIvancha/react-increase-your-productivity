@@ -22,7 +22,7 @@ function Newsletter() {
   }, [form.values]);
 
   return (
-    <section className="newsletter">
+    <section className="newsletter" id="newsletter">
       <div className="newsletter__container">
         <HpTextArea data={newsletterHpTextArea} />
         <form

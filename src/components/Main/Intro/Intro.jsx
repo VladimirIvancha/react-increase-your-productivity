@@ -8,7 +8,7 @@ import PageLine from "../../Shapes/Lines/PageLine";
 
 function Intro() {
   return (
-    <section className="intro">
+    <section className="intro" id="intro">
       <div className="intro__container">
         <PhpTextArea data={introPhpTextArea} />
         <PlayButton

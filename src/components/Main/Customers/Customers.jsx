@@ -4,7 +4,7 @@ import PageLine from "../../Shapes/Lines/PageLine";
 
 function Customers() {
   return (
-    <section className="customers">
+    <section className="customers" id="customers">
       <div className="customers__container">
         <CustomersLogoMenu />
       </div>

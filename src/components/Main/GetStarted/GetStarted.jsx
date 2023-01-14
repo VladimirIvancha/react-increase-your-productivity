@@ -13,7 +13,7 @@ function GetStarted() {
   }
 
   return (
-    <section className="getStarted">
+    <section className="getStarted" id="getStarted">
       <div className="getStarted__container">
         <PhHhpTextArea data={getStartedPhHhpTextArea} />
         <div className="getStarted__wrapper">

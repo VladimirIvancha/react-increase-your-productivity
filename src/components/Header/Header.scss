@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
   @include fc-center;
   width: 100%;
@@ -19,6 +23,27 @@
 
   &__wrapper {
     @include fr-center;
+  }
+
+  &__textMenu-item {
+    @include font-qn700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #697CA6;
+    margin-right: 42px;
+    cursor: pointer;
+
+    &_active {
+        color: $lightBlue;
+    }
+
+    &:hover {
+        opacity: 0.8;
+    }
+  }
+
+  &__textMenu-link {
+    text-decoration: none;
   }
 
   &__actionButton {

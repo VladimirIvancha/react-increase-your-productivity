@@ -16,7 +16,7 @@ function Blog() {
   }
 
   return (
-    <section className="blog">
+    <section className="blog" id="blog">
       <div className="blog__container">
       <PhTextArea data={blogPhTextArea} />
       <div className="blog__wrapper">

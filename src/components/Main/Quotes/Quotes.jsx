@@ -6,7 +6,7 @@ import PageLine from "../../Shapes/Lines/PageLine";
 
 function Quotes() {
   return (
-    <section className="quotes">
+    <section className="quotes" id="quotes">
       <div className="quotes__container">
         <PhpTextArea data={quotesPhpTextArea} />
         <QuotesSwiper />

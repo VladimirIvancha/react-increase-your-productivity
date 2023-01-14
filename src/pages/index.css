@@ -14,6 +14,10 @@
   min-height: 100vh;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -39,6 +43,25 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+.header__textMenu-item {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #697CA6;
+  margin-right: 42px;
+  cursor: pointer;
+}
+.header__textMenu-item_active {
+  color: #5E81FE;
+}
+.header__textMenu-item:hover {
+  opacity: 0.8;
+}
+.header__textMenu-link {
+  text-decoration: none;
 }
 .header__actionButton {
   font-family: "Quicksand";
@@ -81,51 +104,41 @@
   background-color: #D8E3FE;
 }
 
-.menuTextItem {
-  font-family: "Quicksand";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
-  color: #697CA6;
-  margin-right: 42px;
-}
-.menuTextItem_active {
-  color: #5E81FE;
-}
-
 .menuIconsItem {
   margin: 0;
   padding: 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #ffffff;
+  background-color: #ADB4D2;
   border: none;
   transition: opacity 0.3s;
   margin-left: 33px;
 }
+.menuIconsItem:hover {
+  background-color: #5E81FE;
+}
 
 .facebook-icon {
-  background-image: url(../assets/images/facebook-icon.svg);
+  mask-image: url(../assets/images/facebook-icon.svg);
   width: 8.71px;
   height: 17px;
 }
 
 .telegram-icon {
-  background-image: url(../assets/images/telegram-icon.svg);
+  mask-image: url(../assets/images/telegram-icon.svg);
   width: 14.7px;
   height: 11.79px;
 }
 
 .twitter-icon {
-  background-image: url(../assets/images/twitter-icon.svg);
+  mask-image: url(../assets/images/twitter-icon.svg);
   width: 16.51px;
   height: 13.78px;
 }
 
 .m-icon {
-  background-image: url(../assets/images/m-icon.svg);
+  mask-image: url(../assets/images/m-icon.svg);
   width: 16.51px;
   height: 12.86px;
 }
@@ -136,32 +149,35 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #ffffff;
+  background-color: #ADB4D2;
   border: none;
   transition: opacity 0.3s;
   margin-left: 33px;
 }
+.menuIconsItem:hover {
+  background-color: #5E81FE;
+}
 
 .facebook-icon {
-  background-image: url(../assets/images/facebook-icon.svg);
+  mask-image: url(../assets/images/facebook-icon.svg);
   width: 8.71px;
   height: 17px;
 }
 
 .telegram-icon {
-  background-image: url(../assets/images/telegram-icon.svg);
+  mask-image: url(../assets/images/telegram-icon.svg);
   width: 14.7px;
   height: 11.79px;
 }
 
 .twitter-icon {
-  background-image: url(../assets/images/twitter-icon.svg);
+  mask-image: url(../assets/images/twitter-icon.svg);
   width: 16.51px;
   height: 13.78px;
 }
 
 .m-icon {
-  background-image: url(../assets/images/m-icon.svg);
+  mask-image: url(../assets/images/m-icon.svg);
   width: 16.51px;
   height: 12.86px;
 }
@@ -348,38 +364,41 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #ffffff;
+  background-color: #ADB4D2;
   border: none;
   transition: opacity 0.3s;
   margin-right: 76.5px;
 }
+.menuLogoItem:hover {
+  background-color: #5E81FE;
+}
 
 .bitbucket-logo {
-  background-image: url(../assets/images/logo-bitbucket.svg);
+  mask-image: url(../assets/images/logo-bitbucket.svg);
   width: 116.59px;
   height: 29px;
 }
 
 .appleWatch-logo {
-  background-image: url(../assets/images/logo-apple-watch.svg);
+  mask-image: url(../assets/images/logo-apple-watch.svg);
   width: 116.59px;
   height: 24.29px;
 }
 
 .facebook-logo {
-  background-image: url(../assets/images/logo-facebook.svg);
+  mask-image: url(../assets/images/logo-facebook.svg);
   width: 116.58px;
   height: 22.37px;
 }
 
 .atlassian-logo {
-  background-image: url(../assets/images/logo-atlassian.svg);
+  mask-image: url(../assets/images/logo-atlassian.svg);
   width: 116.57px;
   height: 24.07px;
 }
 
 .audi-logo {
-  background-image: url(../assets/images/logo-audi.svg);
+  mask-image: url(../assets/images/logo-audi.svg);
   width: 116.58px;
   height: 28.94px;
 }

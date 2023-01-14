@@ -1,26 +1,43 @@
 const initialMenuItemsData = [
   {
+    itemClassName: "header__textMenu-item",
     id: "home-menuItem",
+    ref: "#header",
+    linkClassName: "header__textMenu-link",
     name: "Home",
   },
   {
+    itemClassName: "header__textMenu-item",
     id: "blog-menuItem",
+    ref: "#blog",
+    linkClassName: "header__textMenu-link",
     name: "Blog",
   },
   {
+    itemClassName: "header__textMenu-item",
     id: "features-menuItem",
+    ref: "#features",
+    linkClassName: "header__textMenu-link",
     name: "Features",
   },
   {
+    itemClassName: "header__textMenu-item",
     id: "pricing-menuItem",
+    ref: "#getStarted",
+    linkClassName: "header__textMenu-link",
     name: "Pricing",
   },
   {
+    itemClassName: "header__textMenu-item",
     id: "documentation-menuItem",
+    ref: "#getStarted",
+    linkClassName: "header__textMenu-link",
     name: "Documentation",
   },
   // {
+  //     itemClassName: "",
   //     id: "",
+  //     ref: "",
   //     name: "",
   // },
 ];
@@ -28,22 +45,22 @@ const initialMenuItemsData = [
 const initialMenuIconsData = [
   {
     id: "facebook-icon",
-    ref: "",
+    ref: "https://facebook.com",
     className: "facebook-icon",
   },
   {
     id: "telegram-icon",
-    ref: "",
+    ref: "https://telegram.com",
     className: "telegram-icon",
   },
   {
     id: "twitter-icon",
-    ref: "",
+    ref: "https://twitter.com",
     className: "twitter-icon",
   },
   {
     id: "m-icon",
-    ref: "",
+    ref: "https://myspace.com",
     className: "m-icon",
   },
   // {
@@ -56,27 +73,27 @@ const initialMenuIconsData = [
 const initialMenuLogoData = [
   {
     id: "bitbucket-logo",
-    ref: "",
+    ref: "https://bitbucket.org/",
     className: "bitbucket-logo",
   },
   {
     id: "appleWatch-logo",
-    ref: "",
+    ref: "http://apple.com",
     className: "appleWatch-logo",
   },
   {
     id: "facebook-logo",
-    ref: "",
+    ref: "http://facebook.com",
     className: "facebook-logo",
   },
   {
     id: "atlassian-logo",
-    ref: "",
+    ref: "https://www.atlassian.com/",
     className: "atlassian-logo",
   },
   {
     id: "audi-logo",
-    ref: "",
+    ref: "https://audi.com",
     className: "audi-logo",
   },
   // {
