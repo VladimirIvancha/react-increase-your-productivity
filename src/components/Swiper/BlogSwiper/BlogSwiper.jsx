@@ -1,7 +1,7 @@
 import React from "react";
 
-import { initialQuotesData } from "../../../utils/initial-data";
-import MenuQuotesItem from "../../Items/MenuQuotesItem/MenuQuotesItem";
+import { initialBlogData } from "../../../utils/initial-data";
+import MenuBlogItem from "../../Items/MenuBlogItem/MenuBlogItem";
 
 import { Virtual, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -10,24 +10,24 @@ import "swiper/scss";
 import "swiper/scss/pagination";
 import "swiper/scss/virtual";
 
-import "./QuotesSwiper.scss";
+import "./BlogSwiper.scss";
 
-function QuotesSwiper() {
-  const slides = initialQuotesData.map(
+function BlogSwiper() {
+  const slides = initialBlogData.map(
     item => (
-      <MenuQuotesItem 
-        key={item.id}
-        item={item}
+      <MenuBlogItem 
+        key={item.id} 
+        item={item} 
       />
-    ) 
+    )
   );
 
   return (
-    <div className="quotesSwiper__container">
+    <div className="blogSwiper__container">
       <Swiper 
         modules={[Virtual, Pagination]} 
         spaceBetween={50}
-        slidesPerView={2}
+        slidesPerView={1}
         grabCursor="true"
         slideToClickedSlide="true"
         pagination={{ clickable: true}}
@@ -40,7 +40,7 @@ function QuotesSwiper() {
         ))}
       </Swiper>
     </div>
-  );
-};
+  )
+}
 
-export default QuotesSwiper;
+export default BlogSwiper;

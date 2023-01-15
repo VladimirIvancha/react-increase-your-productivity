@@ -137,7 +137,7 @@ const initialMenuFeaturesData = [
   {
     id: "Overwiew",
     mainClassName: "features__item",
-    figureClassName: "features__overview-item",
+    figureClassName: "features__icon features__icon_overview",
     textAreaClass: "features__itemTextArea",
     hClass: "features__item-title",
     hText: "Overwiew",
@@ -147,7 +147,7 @@ const initialMenuFeaturesData = [
   {
     id: "Files",
     mainClassName: "features__item",
-    figureClassName: "features__files-item",
+    figureClassName: "features__icon features__icon_files",
     textAreaClass: "features__itemTextArea",
     hClass: "features__item-title",
     hText: "Files",
@@ -157,7 +157,7 @@ const initialMenuFeaturesData = [
   {
     id: "Meeting chats",
     mainClassName: "features__item",
-    figureClassName: "features__meetingChats-item",
+    figureClassName: "features__icon features__icon_meetingChats",
     textAreaClass: "features__itemTextArea",
     hClass: "features__item-title",
     hText: "Meeting chats",
@@ -167,7 +167,7 @@ const initialMenuFeaturesData = [
   {
     id: "Save events",
     mainClassName: "features__item",
-    figureClassName: "features__saveEvents-item",
+    figureClassName: "features__icon features__icon_saveEvents",
     textAreaClass: "features__itemTextArea",
     hClass: "features__item-title",
     hText: "Save events",
@@ -227,13 +227,41 @@ const blogPhTextArea = {
   hText: "Start reading our blog",
 };
 
-const blogHpTextArea = {
-  textAreaClass: "blog__hpTextArea",
-  hClass: "blog__hpTitle",
-  hText: "How to start planning",
-  pClass: "blog__hpSubtitle",
-  pText: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at, eos ut decore ...",
-};
+const initialBlogData = [
+  {
+    id: 'blog-slide-01',
+    pic1ClassName: 'blog__pic blog__pic_main',
+    pic2ClassName: 'blog__pic blog__pic_table',
+    pic3ClassName: 'blog__pic blog__pic_man',
+    textAreaClass: "blog__hpTextArea",
+    hClass: "blog__hpTitle",
+    hText: "How to start planning",
+    pClass: "blog__hpSubtitle",
+    pText: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at, eos ut decore ...",
+  },
+  {
+    id: 'blog-slide-02',
+    pic1ClassName: 'blog__pic blog__pic_main',
+    pic2ClassName: 'blog__pic blog__pic_table',
+    pic3ClassName: 'blog__pic blog__pic_man',
+    textAreaClass: "blog__hpTextArea",
+    hClass: "blog__hpTitle",
+    hText: "How to start planning",
+    pClass: "blog__hpSubtitle",
+    pText: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at, eos ut decore ...",
+  },
+  {
+    id: 'blog-slide-03',
+    pic1ClassName: 'blog__pic blog__pic_main',
+    pic2ClassName: 'blog__pic blog__pic_table',
+    pic3ClassName: 'blog__pic blog__pic_man',
+    textAreaClass: "blog__hpTextArea",
+    hClass: "blog__hpTitle",
+    hText: "How to start planning",
+    pClass: "blog__hpSubtitle",
+    pText: "Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at, eos ut decore ...",
+  },
+]
 
 const quotesPhpTextArea = {
   textAreaClass: "quotes__textArea",
@@ -441,7 +469,7 @@ export {
   initialMenuFeaturesData,
   initialStatsData,
   blogPhTextArea,
-  blogHpTextArea,
+  initialBlogData,
   quotesPhpTextArea,
   initialQuotesData,
   faqPhTextArea,

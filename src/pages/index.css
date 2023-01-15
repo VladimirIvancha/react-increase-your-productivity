@@ -659,40 +659,28 @@ html {
   width: 140px;
   min-height: 254px;
 }
-.features__overview-item {
+.features__icon {
   width: 69px;
   height: 69px;
   border-radius: 50%;
   background-color: #F1F5FF;
   background-position: center;
   background-repeat: no-repeat;
+  cursor: pointer;
+}
+.features__icon:hover {
+  opacity: 0.6;
+}
+.features__icon_overview {
   background-image: url(../assets/images/features-overview-icon.svg);
 }
-.features__files-item {
-  width: 69px;
-  height: 69px;
-  border-radius: 50%;
-  background-color: #F1F5FF;
-  background-position: center;
-  background-repeat: no-repeat;
+.features__icon_files {
   background-image: url(../assets/images/features-files-icon.svg);
 }
-.features__meetingChats-item {
-  width: 69px;
-  height: 69px;
-  border-radius: 50%;
-  background-color: #F1F5FF;
-  background-position: center;
-  background-repeat: no-repeat;
+.features__icon_meetingChats {
   background-image: url(../assets/images/features-meetingChats-icon.svg);
 }
-.features__saveEvents-item {
-  width: 69px;
-  height: 69px;
-  border-radius: 50%;
-  background-color: #F1F5FF;
-  background-position: center;
-  background-repeat: no-repeat;
+.features__icon_saveEvents {
   background-image: url(../assets/images/features-saveEvents-icon.svg);
 }
 .features__itemTextArea {
@@ -939,9 +927,13 @@ html {
   margin: 0;
   padding: 0;
 }
+.blog__wrapper_parent {
+  width: 1154px;
+  justify-content: space-between;
+}
 .blog__wrapper_main {
   background-color: #FFFFFF;
-  margin: 92px 75px 101px 75px;
+  margin: 92px 0 101px 0;
   box-sizing: border-box;
   padding: 63px 41px 64px 35px;
   border: 1px solid #D8E3FE;
@@ -985,6 +977,9 @@ html {
   background-size: contain;
   padding: 0;
   background-image: url(../assets/images/blog-arrow-right.svg);
+}
+.blog__item-container {
+  width: 958px;
 }
 .blog__pic {
   background-repeat: no-repeat;
@@ -1069,22 +1064,6 @@ html {
 }
 .blog__btn:hover {
   opacity: 0.8;
-}
-.blog__circleSet {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  width: 48px;
-  justify-content: space-between;
-  margin: 0 0 28px 0;
-}
-.blog__circleSet-item {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background-color: #D1D6E3;
 }
 
 .quotes {

@@ -69,24 +69,29 @@
     min-height: 254px;
   }
 
-  &__overview-item {
-    @include bg-feture-set;
-    background-image: url(../assets/images/features-overview-icon.svg);
-  }
+  &__icon {
+    @include bg-feature-set;
 
-  &__files-item {
-    @include bg-feture-set;
-    background-image: url(../assets/images/features-files-icon.svg);
-  }
+    &:hover {
+      opacity: 0.6;
+    }
 
-  &__meetingChats-item {
-    @include bg-feture-set;
-    background-image: url(../assets/images/features-meetingChats-icon.svg);
-  }
+    &_overview {
+      background-image: url(../assets/images/features-overview-icon.svg);
+    }
 
-  &__saveEvents-item {
-    @include bg-feture-set;
-    background-image: url(../assets/images/features-saveEvents-icon.svg);
+    &_files {
+      background-image: url(../assets/images/features-files-icon.svg);
+    }
+
+    &_meetingChats {
+      background-image: url(../assets/images/features-meetingChats-icon.svg);
+    }
+
+    &_saveEvents {
+      background-image: url(../assets/images/features-saveEvents-icon.svg);
+    }
+    
   }
 
   &__itemTextArea {

@@ -67,13 +67,14 @@
   margin-right: 76.5px;
 }
 
-@mixin bg-feture-set {
+@mixin bg-feature-set {
   width: 69px;
   height: 69px;
   border-radius: 50%;
   background-color: $deepGrey;
   background-position: center;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 @mixin bg-stat-set {

@@ -1,0 +1,16 @@
+.blogSwiper__container {
+    width: 83%;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 0;
+}
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 0;
+    left: 33%;
+    width: 30%;
+}
+
+.swiper {
+    padding: 0;
+  }

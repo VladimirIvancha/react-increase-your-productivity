@@ -40,9 +40,14 @@
         @include fr-center;
         @include mp-0;
 
+        &_parent {
+            width: 1154px;
+            justify-content: space-between;
+        }
+
         &_main {
             background-color: $white;
-            margin: 92px 75px 101px 75px;
+            margin: 92px 0 101px 0;
             box-sizing: border-box;
             padding: 63px 41px 64px 35px;
             border: 1px solid #D8E3FE;
@@ -73,6 +78,10 @@
     &__icon-arrow-right {
         @include bg-blog-set;
         background-image: url(../assets/images/blog-arrow-right.svg);
+    }
+
+    &__item-container {
+        width: 958px;
     }
 
     &__pic {
@@ -157,20 +166,5 @@
         &:hover {
             opacity: 0.8;
         }
-    }
-
-    &__circleSet {
-        @include fr-center;
-        @include mp-0;
-        width: 48px;
-        justify-content: space-between;
-        margin: 0 0 28px 0;
-    }
-
-    &__circleSet-item {
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        background-color: $grey;
     }
 }
