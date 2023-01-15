@@ -1,5 +1,6 @@
 {
   "name": "react-increase-your-productivity",
+  "homepage": "http://vladimirivancha.github.io/react-increase-your-productivity", 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,9 +17,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "sass": "^1.57.1"
