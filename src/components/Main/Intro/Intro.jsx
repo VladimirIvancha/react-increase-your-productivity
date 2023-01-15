@@ -1,19 +1,27 @@
-import React from "react";
+import React, { useContext } from "react";
 import PlayButton from "../../Buttons/Play/PlayButton";
 import CircleShape from "../../Shapes/Circle/CircleShape";
 import CircleSet from "../../Sets/Circle/CircleSet";
 import PhpTextArea from "../../TextAreas/P-h-p/PhpTextArea";
 import { introPhpTextArea } from "../../../utils/initial-data";
 import PageLine from "../../Shapes/Lines/PageLine";
+import VideoPopupContext from "../../../contexts/VideoPopupContext";
 
 function Intro() {
+  const { setVideoPopupOpen } = useContext(VideoPopupContext);
+
+  function handleBtnClick() {
+    setVideoPopupOpen(true);
+  }
+
   return (
     <section className="intro" id="intro">
       <div className="intro__container">
         <PhpTextArea data={introPhpTextArea} />
         <PlayButton
-          className={"playButton__shape"}
-          insideClassName={"playButton__play-icon"}
+          className={"intro__playBtn-shape"}
+          insideClassName={"intro__playBtn-playIcon"}
+          onClick={handleBtnClick}
         />
         <CircleSet
           number={3}

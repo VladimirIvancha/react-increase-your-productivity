@@ -1,0 +1,110 @@
+.videoPopup {
+  display: grid;
+  visibility: hidden;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+
+  &_is-opened {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0.9s, opacity 0.7s linear;
+    z-index: 2;
+  }
+
+  &__container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    box-sizing: border-box;
+    background-color: #fff;
+    z-index: 2;
+    cursor: default;
+    justify-items: center;
+    padding: 0;
+    border-radius: 8px;
+
+    &_place_video-popup {
+      padding: 0;
+      width: 900px;
+
+      // @include media_1110 {
+      //   width: 600px;
+      // }
+
+      // @include media_768 {
+      //   width: 340px;
+      // }
+
+      // @include media_480 {
+      //   width: 80%;
+      // }
+    }
+
+    // @include media_1110 {
+    //   padding: 50px 100px 30px;
+    //   width: 720px;
+    // }
+
+    // @include media_768 {
+    //   padding: 20px 50px 10px;
+    //   width: 450px;
+    // }
+
+    // @include media_600 {
+    //   width: 100%;
+    // }
+
+    // @include media_480 {
+    //   padding: 75px 5px 40px;
+    // }
+  }
+
+  &__popup-video {
+    width: 80vw;
+    border: none;
+    height: 50vh;
+
+  //   @include media_768 {
+  //     height: 300px;
+  //   }
+
+  //   @include media_480 {
+  //     height: auto;
+  //   }
+  }
+
+  &__btn-close {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../assets/images/button-close-popup-white.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: none;
+    padding: 0;
+    text-decoration: none;
+    position: absolute;
+    background-size: contain;
+    top: -40px;
+    right: -40px;
+
+    // @include media_768 {
+    //   width: 19px;
+    //   height: 19px;
+    // }
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.6;
+    }
+  }
+}

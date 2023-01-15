@@ -1,11 +1,10 @@
 import React, { useContext, useEffect } from "react";
-import success from "../../../assets/images/success.svg";
-import InfoPopupContext from "../../../contexts/InfoPopupContext";
+import VideoPopupContext from "../../../contexts/VideoPopupContext";
 
-function InfoPopup() {
-  const { isInfoPopupOpen, setInfoPopupOpen } = useContext(InfoPopupContext);
-  const classNamePopup = `infoPopup ${
-    isInfoPopupOpen && "infoPopup_is-opened"
+function VideoPopup() {
+  const { isVideoPopupOpen, setVideoPopupOpen } = useContext(VideoPopupContext);
+  const classNamePopup = `videoPopup ${
+    isVideoPopupOpen && "videoPopup_is-opened"
   }`;
 
   // Слушатель на нажатие кнопки Esc для закрытия попапа
@@ -15,43 +14,45 @@ function InfoPopup() {
         handleClosePopup();
       }
     };
-    if (isInfoPopupOpen) {
+    if (isVideoPopupOpen) {
       document.addEventListener("keydown", handlerKeyClick);
     } else {
       document.removeEventListener("keydown", handlerKeyClick);
     }
-  }, [isInfoPopupOpen]);
+  }, [isVideoPopupOpen]);
 
   // Функция закрытия попапа
   function handleClosePopup() {
-    setInfoPopupOpen(false);
+    setVideoPopupOpen(false);
   }
 
   // Слушатель на клик вне попапа для его закрытия
   function handleMouseClick(evt) {
-    if (evt.target.classList.contains("infoPopup_is-opened")) {
+    if (evt.target.classList.contains("videoPopup_is-opened")) {
       handleClosePopup();
     }
   }
 
   return (
     <section
-      id="info-popup"
+      id="video-popup"
       className={classNamePopup}
       onMouseDown={handleMouseClick}
     >
-      <div className="infoPopup__info">
-        <img src={success} alt="Check icon" className="infoPopup__image" />
-        <h2 className="infoPopup__title">Button successfully pressed</h2>
+      <div className="videoPopup__container">
         <button
           type="button"
-          className="infoPopup__button-close"
+          className="videoPopup__btn-close"
           onClick={handleClosePopup}
           aria-label="Кнопка закрыть"
         ></button>
+        {
+          isVideoPopupOpen &&
+          <iframe allowFullScreen="" allow="autoplay" src="https://www.youtube.com/embed/COaXBeiKezw?rel=0&amp;showinfo=0&amp;autoplay=1" className="videoPopup__popup-video"></iframe>
+        }
       </div>
     </section>
   );
 }
 
-export default InfoPopup;
+export default VideoPopup;

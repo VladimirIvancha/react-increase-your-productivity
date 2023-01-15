@@ -5,12 +5,18 @@ import VideoButton from "../../Buttons/Video/VideoButton";
 import { planAndManagePhpTextArea } from "../../../utils/initial-data";
 import PageLine from "../../Shapes/Lines/PageLine";
 import InfoPopupContext from "../../../contexts/InfoPopupContext";
+import VideoPopupContext from "../../../contexts/VideoPopupContext";
 
 function PlanAndManage() {
   const { setInfoPopupOpen } = useContext(InfoPopupContext);
+  const { setVideoPopupOpen } = useContext(VideoPopupContext);
 
   function handleBtnClick() {
     setInfoPopupOpen(true);
+  }
+
+  function handleVideoBtnClick() {
+    setVideoPopupOpen(true);
   }
 
   return (
@@ -25,6 +31,7 @@ function PlanAndManage() {
               name={'View video'}
               className={'planAndManage__videoButton'}
               iconClassName={'videoButton__play-icon'}
+              onClick={handleVideoBtnClick}
             />
             <ActionButton
               name={'See features'}
