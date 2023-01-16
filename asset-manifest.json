@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-increase-your-productivity/static/css/main.3c5aa668.css",
-    "main.js": "/react-increase-your-productivity/static/js/main.8b9df618.js",
+    "main.css": "/react-increase-your-productivity/static/css/main.9af4e9ae.css",
+    "main.js": "/react-increase-your-productivity/static/js/main.86e58b2e.js",
     "static/media/playandmanage-illustration-1.svg": "/react-increase-your-productivity/static/media/playandmanage-illustration-1.9ba16c941e6b48276343.svg",
     "static/media/blog-pic-main.png": "/react-increase-your-productivity/static/media/blog-pic-main.24ac0959fef495aba880.png",
     "static/media/Roboto-Medium.ttf": "/react-increase-your-productivity/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
@@ -44,11 +44,11 @@
     "static/media/features-meetingChats-icon.svg": "/react-increase-your-productivity/static/media/features-meetingChats-icon.c7422d2b213b548ff126.svg",
     "static/media/features-overview-icon.svg": "/react-increase-your-productivity/static/media/features-overview-icon.eac544afabc47755400a.svg",
     "static/media/faq-arrow-down.svg": "/react-increase-your-productivity/static/media/faq-arrow-down.0424ef0d1419434c952b.svg",
-    "main.3c5aa668.css.map": "/react-increase-your-productivity/static/css/main.3c5aa668.css.map",
-    "main.8b9df618.js.map": "/react-increase-your-productivity/static/js/main.8b9df618.js.map"
+    "main.9af4e9ae.css.map": "/react-increase-your-productivity/static/css/main.9af4e9ae.css.map",
+    "main.86e58b2e.js.map": "/react-increase-your-productivity/static/js/main.86e58b2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c5aa668.css",
-    "static/js/main.8b9df618.js"
+    "static/css/main.9af4e9ae.css",
+    "static/js/main.86e58b2e.js"
   ]
 }
