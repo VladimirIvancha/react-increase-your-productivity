@@ -86,14 +86,19 @@
 }
 
 @mixin bg-blog-set {
-  width: 23px;
-  height: 15px;
+  width: 28px;
+  height: 21px;
   border: none;
-  background-color: transparent;
+  background-color: $grey;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   padding: 0;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $statsBlue;
+  }
 }
 
 @mixin bg-quotes-set {

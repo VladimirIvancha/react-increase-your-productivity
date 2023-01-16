@@ -1,134 +1,140 @@
 .quotes {
-    @include fc-center;
+  @include fc-center;
+  width: 100%;
+
+  &__container {
+    @include fr-center;
     width: 100%;
+    min-height: 480px;
+    background: linear-gradient(180deg, #eaf0ff 0%, #f6f9ff 100%);
+    overflow: hidden;
+  }
 
-    &__container {
-        @include fr-center;
-        width: 100%;
-        min-height: 480px;
-        background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
-        overflow: hidden;
+  &__textArea {
+    @include fc-left;
+    margin: 0 0 0 276px;
+    min-width: 333px;
+  }
+
+  &__subtitle {
+    @include font-rn500;
+    @include mp-0;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: $darkBlue;
+    width: 80%;
+    text-align: left;
+  }
+
+  &__title {
+    @include font-qn500;
+    @include mp-0;
+    font-size: 36px;
+    line-height: 45px;
+    color: $darkBlue;
+    width: 100%;
+    text-align: left;
+    margin: 31px 0 0 0;
+  }
+
+  &__text {
+    @include fr-center;
+    @include mp-0;
+    font-size: 12px;
+    line-height: 23px;
+    color: $anotherGreyText;
+    letter-spacing: 0.03em;
+    width: 100%;
+    margin: 14px 0 0 0;
+  }
+
+  &__swiper-container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 132px;
+  }
+
+  &__wrapper {
+    @include fc-center;
+  }
+
+  &__menu {
+    @include mp-0;
+    display: grid;
+    list-style: none;
+    height: auto;
+    visibility: visible;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &__item-container {
+    max-width: 425px;
+    padding: 0 0 31px 0;
+    background-color: transparent;
+    position: relative;
+  }
+
+  &__item {
+    min-height: auto;
+    margin: 0;
+    padding: 41px 71px 53px 69px;
+    background-color: $white;
+  }
+
+  // &__pTextArea {
+  // }
+
+  &__pText {
+    @include font-rn400;
+    @include mp-0;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: $newGreyText;
+  }
+
+  &__person {
+    @include bg-quotes-set;
+
+    &_john-brow {
+      background-image: url(../assets/images/quotes-john-brow.png);
     }
 
-    &__textArea {
-        @include fc-left;
-        margin: 0 0 0 276px;
-        min-width: 333px;
+    &_jack-black {
+      background-image: url(../assets/images/quotes-john-brow.png);
     }
 
-    &__subtitle {
-        @include font-rn500;
-        @include mp-0;
-        font-size: 10px;
-        line-height: 12px;
-        text-transform: uppercase;
-        color: $darkBlue;
-        width: 80%;
-        text-align: left;
+    &_lionel-messi {
+      background-image: url(../assets/images/quotes-john-brow.png);
     }
 
-    &__title {
-        @include font-qn500;
-        @include mp-0;
-        font-size: 36px;
-        line-height: 45px;
-        color: $darkBlue;
-        width: 100%;
-        text-align: left;
-        margin: 31px 0 0 0;
+    &_kurt-russel {
+      background-image: url(../assets/images/quotes-john-brow.png);
     }
 
-    &__text {
-        @include fr-center;
-        @include mp-0;
-        font-size: 12px;
-        line-height: 23px;
-        color: $anotherGreyText;
-        letter-spacing: 0.03em;
-        width: 100%;
-        margin: 14px 0 0 0;
+    &_demi-moor {
+      background-image: url(../assets/images/quotes-john-brow.png);
     }
 
-    &__wrapper {
-        @include fc-center;
+    &_kristina-ricci {
+      background-image: url(../assets/images/quotes-john-brow.png);
     }
+  }
 
-    &__menu {
-        @include mp-0;
-        display: grid;
-        list-style: none;
-        height: auto;
-        visibility: visible;
-        grid-template-columns: repeat(2, 1fr);
-    }
+  &__circleSet {
+    @include fr-center;
+    @include mp-0;
+    width: 168px;
+    justify-content: space-between;
+    margin: 78px 0 0 0;
+  }
 
-    &__item-container {
-        max-width: 425px;
-        padding: 0 0 31px 0;
-        background-color: transparent;
-        position: relative;
-    }
-
-    &__item {
-        min-height: auto;
-        margin: 0;
-        padding: 41px 71px 53px 69px;
-        background-color: $white;
-    }
-    
-
-    // &__pTextArea {
-    // }
-
-    &__pText {
-        @include font-rn400;
-        @include mp-0;
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.03em;
-        color: $newGreyText;
-    }
-
-    &__person {
-        @include bg-quotes-set;
-
-        &_john-brow {
-            background-image: url(../assets/images/quotes-john-brow.png);
-        }
-
-        &_jack-black {
-            background-image: url(../assets/images/quotes-john-brow.png);
-        }
-
-        &_lionel-messi {
-            background-image: url(../assets/images/quotes-john-brow.png);
-        }
-
-        &_kurt-russel {
-            background-image: url(../assets/images/quotes-john-brow.png);
-        }
-
-        &_demi-moor {
-            background-image: url(../assets/images/quotes-john-brow.png);
-        }
-
-        &_kristina-ricci {
-            background-image: url(../assets/images/quotes-john-brow.png);
-        }
-    }
-
-    &__circleSet {
-        @include fr-center;
-        @include mp-0;
-        width: 168px;
-        justify-content: space-between;
-        margin: 78px 0 0 0;
-    }
-
-    &__circleSet-item {
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        background-color: $grey;
-    }
+  &__circleSet-item {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: $grey;
+  }
 }

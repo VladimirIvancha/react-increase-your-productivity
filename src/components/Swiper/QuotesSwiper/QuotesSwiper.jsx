@@ -23,7 +23,7 @@ function QuotesSwiper() {
   );
 
   return (
-    <div className="quotesSwiper__container">
+    <div className="quotes__swiper-container">
       <Swiper 
         modules={[Virtual, Pagination]} 
         spaceBetween={50}
@@ -32,6 +32,7 @@ function QuotesSwiper() {
         slideToClickedSlide="true"
         pagination={{ clickable: true}}
         virtual
+        className="quotesSwiper"
       >
         {slides.map((slideContent, index) => (
           <SwiperSlide key={index} virtualIndex={index}>

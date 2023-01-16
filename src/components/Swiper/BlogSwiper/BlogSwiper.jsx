@@ -3,7 +3,7 @@ import React from "react";
 import { initialBlogData } from "../../../utils/initial-data";
 import MenuBlogItem from "../../Items/MenuBlogItem/MenuBlogItem";
 
-import { Virtual, Pagination } from 'swiper';
+import { Virtual, Pagination, Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/scss";
@@ -23,15 +23,22 @@ function BlogSwiper() {
   );
 
   return (
-    <div className="blogSwiper__container">
+    <div className="blog__swiper-container">
       <Swiper 
-        modules={[Virtual, Pagination]} 
+        modules={[Virtual, Pagination, Navigation]} 
         spaceBetween={50}
         slidesPerView={1}
         grabCursor="true"
         slideToClickedSlide="true"
-        pagination={{ clickable: true}}
+        pagination={{ 
+          clickable: true,
+        }}
+        navigation={{
+          nextEl: '.blog__icon-arrow-right',
+          prevEl: '.blog__icon-arrow-left',
+        }}
         virtual
+        className="blogSwiper"
       >
         {slides.map((slideContent, index) => (
           <SwiperSlide key={index} virtualIndex={index}>
