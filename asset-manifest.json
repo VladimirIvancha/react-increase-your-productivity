@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/react-increase-your-productivity/static/css/main.9af4e9ae.css",
-    "main.js": "/react-increase-your-productivity/static/js/main.86e58b2e.js",
+    "main.css": "/react-increase-your-productivity/static/css/main.817dfb9f.css",
+    "main.js": "/react-increase-your-productivity/static/js/main.250d8993.js",
     "static/media/playandmanage-illustration-1.svg": "/react-increase-your-productivity/static/media/playandmanage-illustration-1.9ba16c941e6b48276343.svg",
+    "static/media/blog-pic-main-02.jpg": "/react-increase-your-productivity/static/media/blog-pic-main-02.ad2a43b39f0363b3639d.jpg",
+    "static/media/blog-pic-table-01.jpg": "/react-increase-your-productivity/static/media/blog-pic-table-01.7378d8dadee0ff7df578.jpg",
+    "static/media/blog-pic-man-01.jpg": "/react-increase-your-productivity/static/media/blog-pic-man-01.35643b6efd6f050d6a6a.jpg",
+    "static/media/blog-pic-main-01.jpg": "/react-increase-your-productivity/static/media/blog-pic-main-01.fc2f4d3b076af0f4718d.jpg",
     "static/media/blog-pic-main.png": "/react-increase-your-productivity/static/media/blog-pic-main.24ac0959fef495aba880.png",
     "static/media/Roboto-Medium.ttf": "/react-increase-your-productivity/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
     "static/media/Roboto-Regular.ttf": "/react-increase-your-productivity/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
@@ -32,6 +36,7 @@
     "static/media/stats-used-icon.svg": "/react-increase-your-productivity/static/media/stats-used-icon.f4161d06e104863a7dc8.svg",
     "static/media/telegram-icon.svg": "/react-increase-your-productivity/static/media/telegram-icon.e2ade6663411382c2e8f.svg",
     "static/media/m-icon.svg": "/react-increase-your-productivity/static/media/m-icon.777601a2d7db2799e413.svg",
+    "static/media/blog-zoom-icon.svg": "/react-increase-your-productivity/static/media/blog-zoom-icon.ea079574acb1bce443fc.svg",
     "static/media/success.svg": "/react-increase-your-productivity/static/media/success.1b6082f862eac35e2514460237d96ecc.svg",
     "static/media/facebook-icon.svg": "/react-increase-your-productivity/static/media/facebook-icon.adf93cb9b1a02b20fe5c.svg",
     "static/media/vector-icon-close.svg": "/react-increase-your-productivity/static/media/vector-icon-close.ad98de32e342afafa118.svg",
@@ -44,11 +49,11 @@
     "static/media/features-meetingChats-icon.svg": "/react-increase-your-productivity/static/media/features-meetingChats-icon.c7422d2b213b548ff126.svg",
     "static/media/features-overview-icon.svg": "/react-increase-your-productivity/static/media/features-overview-icon.eac544afabc47755400a.svg",
     "static/media/faq-arrow-down.svg": "/react-increase-your-productivity/static/media/faq-arrow-down.0424ef0d1419434c952b.svg",
-    "main.9af4e9ae.css.map": "/react-increase-your-productivity/static/css/main.9af4e9ae.css.map",
-    "main.86e58b2e.js.map": "/react-increase-your-productivity/static/js/main.86e58b2e.js.map"
+    "main.817dfb9f.css.map": "/react-increase-your-productivity/static/css/main.817dfb9f.css.map",
+    "main.250d8993.js.map": "/react-increase-your-productivity/static/js/main.250d8993.js.map"
   },
   "entrypoints": [
-    "static/css/main.9af4e9ae.css",
-    "static/js/main.86e58b2e.js"
+    "static/css/main.817dfb9f.css",
+    "static/js/main.250d8993.js"
   ]
 }
