@@ -118,6 +118,52 @@
       min-height: 127px;
       margin: 13px 0 0 0;
     }
+
+    &_main-01 {
+      background-image: url(../assets/images/blog-pic-main-01.jpg);
+      background-position: center;
+      background-size: cover;
+      max-width: 267px;
+      min-height: 267px;
+      position: relative;
+    }
+
+    &_table-01 {
+      background-image: url(../assets/images/blog-pic-table-01.jpg);
+      background-position: center;
+      background-size: cover;
+      max-width: 126px;
+      min-height: 127px;
+    }
+
+    &_man-01 {
+      background-image: url(../assets/images/blog-pic-man-01.jpg);
+      background-position: center;
+      background-size: cover;
+      max-width: 126px;
+      min-height: 127px;
+      margin: 13px 0 0 0;
+    }
+
+    &_main-02 {
+      background-image: url(../assets/images/blog-pic-main-02.jpg);
+      background-position: center;
+      background-size: cover;
+      max-width: 267px;
+      min-height: 267px;
+      position: relative;
+    }
+  }
+
+  &__search-icon {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 50%;
+    top: 50%;
+    background-image: url(../assets/images/blog-zoom-icon.svg);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
   }
 
   &__hpTextArea {

@@ -287,7 +287,6 @@ html {
   position: relative;
   border: none;
   cursor: pointer;
-  z-index: 1;
 }
 .intro__playBtn-shape:hover {
   opacity: 0.8;
@@ -329,8 +328,7 @@ html {
   background-size: contain;
   background-color: transparent;
   position: absolute;
-  bottom: 60px;
-  left: 446px;
+  animation: myAnimation 20s infinite;
 }
 .intro__circleSet {
   display: flex;
@@ -351,6 +349,38 @@ html {
   background-color: #D1D6E3;
 }
 
+@keyframes myAnimation {
+  0% {
+    bottom: 0%;
+    left: 0%;
+    opacity: 0;
+  }
+  3% {
+    bottom: 30px;
+    left: 3%;
+    opacity: 1;
+  }
+  31% {
+    bottom: 60px;
+    left: 31%;
+    opacity: 1;
+  }
+  59% {
+    bottom: 210px;
+    left: 59.4%;
+    opacity: 1;
+  }
+  88% {
+    bottom: 325px;
+    left: 88%;
+    opacity: 1;
+  }
+  100% {
+    bottom: 325px;
+    left: 93%;
+    opacity: 0;
+  }
+}
 .videoButton__play-icon {
   width: 6.5px;
   height: 7.2px;
@@ -1019,6 +1049,47 @@ html {
   max-width: 126px;
   min-height: 127px;
   margin: 13px 0 0 0;
+}
+.blog__pic_main-01 {
+  background-image: url(../assets/images/blog-pic-main-01.jpg);
+  background-position: center;
+  background-size: cover;
+  max-width: 267px;
+  min-height: 267px;
+  position: relative;
+}
+.blog__pic_table-01 {
+  background-image: url(../assets/images/blog-pic-table-01.jpg);
+  background-position: center;
+  background-size: cover;
+  max-width: 126px;
+  min-height: 127px;
+}
+.blog__pic_man-01 {
+  background-image: url(../assets/images/blog-pic-man-01.jpg);
+  background-position: center;
+  background-size: cover;
+  max-width: 126px;
+  min-height: 127px;
+  margin: 13px 0 0 0;
+}
+.blog__pic_main-02 {
+  background-image: url(../assets/images/blog-pic-main-02.jpg);
+  background-position: center;
+  background-size: cover;
+  max-width: 267px;
+  min-height: 267px;
+  position: relative;
+}
+.blog__search-icon {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  left: 50%;
+  top: 50%;
+  background-image: url(../assets/images/blog-zoom-icon.svg);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 .blog__hpTextArea {
   display: flex;
